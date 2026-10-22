@@ -1,0 +1,380 @@
+record_id,stream,n_rows,n_retained,n_classified_JH_rows,n_classified_rows,n_nonclassified_derivedJH_rows,terminal_category,cohort_key
+PMID_10694141,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_10694141
+PMID_14992123,secondary,12,0,0,6,0,T4 correlation-type rows for non-jump-height outcomes only,ind_PMID_14992123
+PMID_16075781,secondary,8,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_16075781
+PMID_17685701,contextual,5,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_17685701
+PMID_17852695,primary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_17852695
+PMID_18202563,contextual,6,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_18202563
+PMID_18296900,primary,6,0,4,4,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_18296900
+PMID_18468745,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_18468745
+PMID_18806550,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_18806550
+PMID_19199196,primary,5,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_19199196
+PMID_19223670,secondary,5,0,1,5,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_19223670
+PMID_19308790,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_19308790
+PMID_19568033,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_19568033
+PMID_19620926,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_19620926
+PMID_19704382,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_19704382
+PMID_19756713,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_19756713
+PMID_19816215,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_19816215
+PMID_19996787,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_19996787
+PMID_20072057,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_20072057
+PMID_20308694,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_20308694
+PMID_20703169,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_20703169
+PMID_20861526,secondary,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_20861526
+PMID_21170794,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_21170794
+PMID_21386721,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_21386721
+PMID_21986695,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_21986695
+PMID_22176201,secondary,14,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_22176201
+PMID_22240545,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_22240545
+PMID_22516913,secondary,12,0,0,12,0,T4 correlation-type rows for non-jump-height outcomes only,ind_PMID_22516913
+PMID_22592168,secondary,7,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_22592168
+PMID_22796996,contextual,16,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_22796996
+PMID_22836602,contextual,3,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_22836602
+PMID_22954483,contextual,10,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_22954483
+PMID_23007490,primary,4,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_23007490
+PMID_23068586,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_23068586
+PMID_23121440,primary,9,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_23121440
+PMID_23245879,secondary,3,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_23245879
+PMID_23258607,primary,4,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_23258607
+PMID_23287837,contextual,10,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_23287837
+PMID_23314683,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_23314683
+PMID_23412713,contextual,3,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_23412713
+PMID_23439333,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_23439333
+PMID_23443218,primary,5,1,1,1,4,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_23443218
+PMID_23470297,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_23470297
+PMID_23479406,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_23479406
+PMID_23486836,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_23486836
+PMID_23539085,contextual,6,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_23539085
+PMID_23684981,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_23684981
+PMID_24048913,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_24048913
+PMID_24155062,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_24155062
+PMID_24172722,primary,5,0,2,2,2,"T2 has correlation-type jump-height rows, none retained",ind_PMID_24172722
+PMID_24332752,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_24332752
+PMID_24594214,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_24594214
+PMID_24785367,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_24785367
+PMID_24845209,primary,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_24845209
+PMID_25048430,primary,3,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_25048430
+PMID_25115142,contextual,9,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_25115142
+PMID_25177190,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_25177190
+PMID_25226317,primary,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_25226317
+PMID_25463691,primary,4,0,3,3,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_25463691
+PMID_25490070,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_25490070
+PMID_25627642,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_25627642
+PMID_25674673,primary,12,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_25674673
+PMID_25710257,primary,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",THORPE_EPL_17D_C1
+PMID_25831403,secondary,8,0,1,4,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_25831403
+PMID_25848893,primary,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_25848893
+PMID_25894521,secondary,7,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_25894521
+PMID_26148212,primary,4,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_26148212
+PMID_26219106,secondary,4,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_26219106
+PMID_26274891,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_26274891
+PMID_26332780,primary,2,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_26332780
+PMID_26355239,secondary,3,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_26355239
+PMID_26366619,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_26366619
+PMID_26558831,primary,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_26558831
+PMID_26615476,secondary,38,0,0,38,0,T4 correlation-type rows for non-jump-height outcomes only,SHEARER_RUSSELL_PAIR
+PMID_26860532,primary,3,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_26860532
+PMID_26930226,primary,13,0,0,4,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_26930226
+PMID_26962958,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_26962958
+PMID_27028155,primary,17,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27028155
+PMID_27031035,contextual,4,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27031035
+PMID_27036712,primary,19,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27036712
+PMID_27136509,contextual,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27136509
+PMID_27193485,primary,34,0,8,29,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_27193485
+PMID_27227791,contextual,9,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_27227791
+PMID_27278256,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27278256
+PMID_27359207,secondary,49,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_27359207
+PMID_27428681,primary,5,0,1,1,4,"T2 has correlation-type jump-height rows, none retained",ind_PMID_27428681
+PMID_27537203,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27537203
+PMID_27601783,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27601783
+PMID_27736241,secondary,18,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_27736241
+PMID_27751660,secondary,22,0,0,12,0,T4 correlation-type rows for non-jump-height outcomes only,SHEARER_RUSSELL_PAIR
+PMID_27918668,primary,3,3,3,3,0,T1 contributes >=1 of the retained primary jump-height effects,THORPE_EPL_17D_C1
+PMID_27967334,primary,27,0,0,0,15,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_27967334
+PMID_28002177,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28002177
+PMID_28002179,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28002179
+PMID_28060035,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_28060035
+PMID_28085126,primary,28,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28085126
+PMID_28134840,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28134840
+PMID_28240711,contextual,7,0,0,0,7,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28240711
+PMID_28276911,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_28276911
+PMID_28285432,contextual,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28285432
+PMID_28422525,primary,4,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28422525
+PMID_28575923,secondary,26,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_28575923
+PMID_28597622,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_28597622
+PMID_28634456,secondary,18,0,0,18,0,T4 correlation-type rows for non-jump-height outcomes only,ind_PMID_28634456
+PMID_28662123,primary,7,0,0,0,7,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28662123
+PMID_28738672,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28738672
+PMID_28761702,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28761702
+PMID_28795586,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28795586
+PMID_28859013,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28859013
+PMID_28872368,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28872368
+PMID_28872370,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28872370
+PMID_28902112,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_28902112
+PMID_29016479,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29016479
+PMID_29118716,contextual,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_29118716
+PMID_29339989,primary,12,12,12,12,0,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_29339989
+PMID_29351166,primary,6,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29351166
+PMID_29431537,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29431537
+PMID_29466274,primary,10,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_29466274
+PMID_29489732,secondary,9,0,0,9,0,T4 correlation-type rows for non-jump-height outcomes only,ind_PMID_29489732
+PMID_29659539,contextual,12,0,0,0,8,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29659539
+PMID_29789267,primary,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_29789267
+PMID_29797592,primary,3,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29797592
+PMID_29809065,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29809065
+PMID_29910326,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_29910326
+PMID_29910360,secondary,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_29910360
+PMID_29930514,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_29930514
+PMID_30131704,secondary,4,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_30131704
+PMID_30321486,contextual,13,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_30321486
+PMID_30427228,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_30427228
+PMID_30449947,primary,9,0,0,0,9,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_30449947
+PMID_30509634,contextual,6,0,1,1,5,"T2 has correlation-type jump-height rows, none retained",ind_PMID_30509634
+PMID_30607719,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_30607719
+PMID_30664109,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_30664109
+PMID_30676136,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_30676136
+PMID_30958067,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_30958067
+PMID_31034293,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31034293
+PMID_31231241,primary,4,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_31231241
+PMID_31244667,contextual,2,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31244667
+PMID_31361731,primary,6,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31361731
+PMID_31447388,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31447388
+PMID_31456474,contextual,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_31456474
+PMID_31526664,primary,18,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_31526664
+PMID_31680636,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31680636
+PMID_31739531,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31739531
+PMID_31751937,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31751937
+PMID_31797035,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31797035
+PMID_31798459,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31798459
+PMID_31808328,secondary,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_31808328
+PMID_31866876,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31866876
+PMID_31985557,primary,3,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_31985557
+PMID_32009514,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32009514
+PMID_32019482,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32019482
+PMID_32023187,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32023187
+PMID_32061525,primary,12,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32061525
+PMID_32125249,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32125249
+PMID_32191716,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32191716
+PMID_32301681,primary,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_32301681
+PMID_32456075,primary,4,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32456075
+PMID_32567438,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32567438
+PMID_32668408,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_32668408
+PMID_32672095,contextual,4,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_32672095
+PMID_32674924,primary,2,0,2,2,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_32674924
+PMID_33084524,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33084524
+PMID_33315522,primary,4,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33315522
+PMID_33317982,contextual,4,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33317982
+PMID_33337691,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_33337691
+PMID_33343075,primary,17,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33343075
+PMID_33348584,primary,6,2,2,2,3,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_33348584
+PMID_33401240,secondary,5,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_33401240
+PMID_33555825,primary,40,16,16,32,4,T1 contributes >=1 of the retained primary jump-height effects,ISHIDA_ETSU_WSOC_PAIR
+PMID_33626506,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33626506
+PMID_33715988,primary,4,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33715988
+PMID_33726784,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33726784
+PMID_33900264,contextual,10,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33900264
+PMID_33919043,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_33919043
+PMID_34027923,primary,7,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_34027923
+PMID_34051699,contextual,13,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_34051699
+PMID_34100786,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_34100786
+PMID_34200014,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_34200014
+PMID_34383574,primary,8,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_34383574
+PMID_34437370,primary,7,0,0,6,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_34437370
+PMID_34489720,primary,14,0,13,13,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_34489720
+PMID_34543430,secondary,7,0,0,7,0,T4 correlation-type rows for non-jump-height outcomes only,ind_PMID_34543430
+PMID_34708201,primary,13,0,6,13,0,"T2 has correlation-type jump-height rows, none retained",ISHIDA_ETSU_WSOC_PAIR
+PMID_34868427,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_34868427
+PMID_34881555,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_34881555
+PMID_34881558,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_34881558
+PMID_35073235,primary,8,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35073235
+PMID_35077294,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35077294
+PMID_35077296,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35077296
+PMID_35077336,primary,19,10,10,14,1,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_35077336
+PMID_35173358,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35173358
+PMID_35240577,primary,13,0,0,0,13,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35240577
+PMID_35247016,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35247016
+PMID_35291639,contextual,2,0,1,1,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_35291639
+PMID_35321145,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35321145
+PMID_35344470,primary,8,0,0,0,8,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35344470
+PMID_35351196,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_35351196
+PMID_35483701,secondary,3,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_35483701
+PMID_35622484,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35622484
+PMID_35627606,primary,9,2,2,2,7,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_35627606
+PMID_35770192,contextual,4,0,1,1,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_35770192
+PMID_35847450,primary,4,0,0,1,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35847450
+PMID_35857131,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",SD_136165739_PMID_35857131_PAIR
+PMID_35894955,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_35894955
+PMID_35974069,primary,3,0,1,1,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_35974069
+PMID_35977104,primary,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_35977104
+PMID_35980956,contextual,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_35980956
+PMID_36045743,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36045743
+PMID_36220145,primary,104,0,0,0,13,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36220145
+PMID_36247960,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36247960
+PMID_36355823,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,MALES_MALES_PAIR
+PMID_36360708,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36360708
+PMID_36429786,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36429786
+PMID_36430106,primary,4,2,2,2,2,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_36430106
+PMID_36455554,primary,55,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36455554
+PMID_36553305,primary,6,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36553305
+PMID_36553439,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36553439
+PMID_36679427,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_36679427
+PMID_36723062,contextual,24,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36723062
+PMID_36780901,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36780901
+PMID_36809786,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_36809786
+PMID_36895634,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36895634
+PMID_36984590,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_36984590
+PMID_37081074,primary,6,0,1,3,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_37081074
+PMID_37234055,contextual,8,0,0,0,8,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_37234055
+PMID_37293669,contextual,3,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_37293669
+PMID_37394944,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_37394944
+PMID_37521097,primary,8,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_37521097
+PMID_37549884,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_37549884
+PMID_38028786,primary,7,6,6,6,1,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_38028786
+PMID_38134897,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_38134897
+PMID_38436665,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_38436665
+PMID_38471657,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_38471657
+PMID_38497787,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_38497787
+PMID_38617408,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_38617408
+PMID_38700046,primary,5,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_38700046
+PMID_39074218,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39074218
+PMID_39132417,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39132417
+PMID_39231799,primary,11,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_39231799
+PMID_39242725,primary,7,0,0,0,7,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39242725
+PMID_39258624,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_39258624
+PMID_39287577,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39287577
+PMID_39412101,primary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_39412101
+PMID_39472024,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_39472024
+PMID_39502408,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39502408
+PMID_39652731,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39652731
+PMID_39757031,primary,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_39757031
+PMID_39787011,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39787011
+PMID_39846677,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39846677
+PMID_39985142,contextual,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_39985142
+PMID_40141767,primary,11,0,0,2,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40141767
+PMID_40182719,primary,15,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_40182719
+PMID_40254901,primary,10,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40254901
+PMID_40267470,primary,8,0,0,1,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40267470
+PMID_40302788,contextual,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40302788
+PMID_40463316,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40463316
+PMID_40498100,contextual,11,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40498100
+PMID_40559688,primary,10,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40559688
+PMID_40656991,contextual,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40656991
+PMID_40656994,contextual,2,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40656994
+PMID_40843845,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40843845
+PMID_40845289,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_40845289
+PMID_40858283,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40858283
+PMID_40981050,contextual,6,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_40981050
+PMID_41209368,primary,2,0,2,2,0,"T2 has correlation-type jump-height rows, none retained",MALES_MALES_PAIR
+PMID_41210085,primary,10,10,10,10,0,T1 contributes >=1 of the retained primary jump-height effects,ind_PMID_41210085
+PMID_41228456,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41228456
+PMID_41251037,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41251037
+PMID_41269473,primary,2,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41269473
+PMID_41294360,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_41294360
+PMID_41297532,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_PMID_41297532
+PMID_41359913,primary,5,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41359913
+PMID_41359922,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_PMID_41359922
+PMID_41362406,primary,2,0,1,1,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_41362406
+PMID_41400431,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41400431
+PMID_41419757,primary,4,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41419757
+PMID_41470882,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41470882
+PMID_41516935,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41516935
+PMID_41571727,primary,3,0,1,3,0,"T2 has correlation-type jump-height rows, none retained",ind_PMID_41571727
+PMID_41656279,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41656279
+PMID_41665606,primary,15,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41665606
+PMID_41668954,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41668954
+PMID_41791370,primary,4,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41791370
+PMID_41858994,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41858994
+PMID_41893591,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41893591
+PMID_41957875,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41957875
+PMID_41995036,contextual,5,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_41995036
+PMID_42073456,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42073456
+PMID_42127336,primary,13,0,0,1,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42127336
+PMID_42133376,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42133376
+PMID_42166123,contextual,5,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42166123
+PMID_42211550,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42211550
+PMID_42220580,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42220580
+PMID_42228843,primary,5,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42228843
+PMID_42329031,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42329031
+PMID_42332820,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42332820
+PMID_42346350,primary,4,0,1,1,3,"T2 has correlation-type jump-height rows, none retained",ind_PMID_42346350
+PMID_42351387,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42351387
+PMID_42390026,contextual,6,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",SD_RUGBY_LEAGUE_COMPANION_PAIR
+PMID_42464343,primary,8,0,1,4,1,"T2 has correlation-type jump-height rows, none retained",ind_PMID_42464343
+PMID_42520270,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42520270
+PMID_42553027,contextual,15,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42553027
+PMID_42681641,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_PMID_42681641
+SCOPUS_2-s2.0-105005422344,contextual,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SCOPUS_2-s2.0-105005422344
+SCOPUS_2-s2.0-105015532135,primary,11,3,5,5,1,T1 contributes >=1 of the retained primary jump-height effects,ind_SCOPUS_2-s2.0-105015532135
+SCOPUS_2-s2.0-105017643601,primary,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_SCOPUS_2-s2.0-105017643601
+SCOPUS_2-s2.0-105020463707,contextual,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-105020463707
+SCOPUS_2-s2.0-105022001619,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-105022001619
+SCOPUS_2-s2.0-105027345810,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-105027345810
+SCOPUS_2-s2.0-105043101772,primary,15,0,7,15,0,"T2 has correlation-type jump-height rows, none retained",ind_SCOPUS_2-s2.0-105043101772
+SCOPUS_2-s2.0-105045873523,primary,24,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-105045873523
+SCOPUS_2-s2.0-105047813280,primary,3,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-105047813280
+SCOPUS_2-s2.0-105049121813,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-105049121813
+SCOPUS_2-s2.0-85020626946,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85020626946
+SCOPUS_2-s2.0-85047777257,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_SCOPUS_2-s2.0-85047777257
+SCOPUS_2-s2.0-85065515383,contextual,8,0,0,0,8,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85065515383
+SCOPUS_2-s2.0-85075373824,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SCOPUS_2-s2.0-85075373824
+SCOPUS_2-s2.0-85088652921,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85088652921
+SCOPUS_2-s2.0-85109189022,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_SCOPUS_2-s2.0-85109189022
+SCOPUS_2-s2.0-85115821452,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85115821452
+SCOPUS_2-s2.0-85127008562,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85127008562
+SCOPUS_2-s2.0-85137597406,contextual,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SCOPUS_2-s2.0-85137597406
+SCOPUS_2-s2.0-85164019601,primary,8,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85164019601
+SCOPUS_2-s2.0-85197263173,primary,4,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85197263173
+SCOPUS_2-s2.0-85212923619,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SCOPUS_2-s2.0-85212923619
+SD_112820882,secondary,8,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SD_112820882
+SD_123568086,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_123568086
+SD_124822089,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_SD_124822089
+SD_128867155,secondary,7,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SD_128867155
+SD_133104945,secondary,6,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SD_133104945
+SD_134969952,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SD_134969952
+SD_135371022,secondary,2,0,0,1,0,T4 correlation-type rows for non-jump-height outcomes only,ind_SD_135371022
+SD_135817217,primary,3,0,1,1,2,"T2 has correlation-type jump-height rows, none retained",ind_SD_135817217
+SD_136165739,contextual,0,0,0,0,0,T6 no effect row (characterised only),SD_136165739_PMID_35857131_PAIR
+SD_137542280,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_137542280
+SD_139364528,primary,7,0,0,1,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_139364528
+SD_141395978,contextual,2,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_141395978
+SD_144785750,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_144785750
+SD_147959067,secondary,8,0,0,8,0,T4 correlation-type rows for non-jump-height outcomes only,ind_SD_147959067
+SD_148561618,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_148561618
+SD_152581619,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_SD_152581619
+SD_154766407,primary,4,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_154766407
+SD_154766427,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_154766427
+SD_157470125,primary,1,0,1,1,0,"T2 has correlation-type jump-height rows, none retained",ind_SD_157470125
+SD_160151456,primary,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_160151456
+SD_165462943,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_165462943
+SD_173709829,primary,8,0,2,2,6,"T2 has correlation-type jump-height rows, none retained",ind_SD_173709829
+SD_175197135,contextual,8,0,0,0,8,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_175197135
+SD_177527373,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_177527373
+SD_178977872,contextual,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_178977872
+SD_179257424,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_179257424
+SD_180578012,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_180578012
+SD_181420497,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_SD_181420497
+SD_182542602,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_182542602
+SD_185606044,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,SD_RUGBY_LEAGUE_COMPANION_PAIR
+SD_185606045,primary,10,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",SD_RUGBY_LEAGUE_COMPANION_PAIR
+SD_186775670,primary,4,0,2,4,0,"T2 has correlation-type jump-height rows, none retained",ind_SD_186775670
+SD_187269969,primary,20,0,0,16,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_187269969
+SD_187464724,contextual,4,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_187464724
+SD_187723497,primary,54,0,0,0,18,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_187723497
+SD_188591957,contextual,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_188591957
+SD_189049229,primary,7,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_189049229
+SD_189592522,primary,9,0,0,0,4,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_189592522
+SD_190702968,primary,6,0,0,0,6,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_190702968
+SD_191468667,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_191468667
+SD_192468516,primary,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_192468516
+SD_193640136,primary,1,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_193640136
+SD_194559685,secondary,2,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SD_194559685
+SD_196188164,secondary,6,4,4,4,0,T1 contributes >=1 of the retained primary jump-height effects,ind_SD_196188164
+SD_42730403,contextual,0,0,0,0,0,T6 no effect row (characterised only),ind_SD_42730403
+SD_47910482,contextual,2,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_47910482
+SD_60507908,primary,5,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_60507908
+SD_67225042,contextual,1,0,0,0,0,T5 other-estimand data for non-jump-height outcomes only,ind_SD_67225042
+SD_71346925,contextual,5,0,0,0,5,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_71346925
+SD_91532679,primary,6,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_91532679
+SD_98478137,contextual,2,0,0,0,1,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_SD_98478137
+WOS_000452484500002,primary,3,0,0,0,3,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_WOS_000452484500002
+WOS_001338308100001,primary,3,0,0,0,2,"T3 jump-height data only as other estimand (contrast/regression), none usable",ind_WOS_001338308100001

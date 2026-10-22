@@ -1,0 +1,17 @@
+failed_criteria_set,n_rows
+A+B,1000
+A,739
+B+D,108
+RETAINED,71
+B+C,48
+B,41
+C,29
+D,15
+C+D,12
+A+B+C,8
+A+D,6
+D+G,5
+A+C,4
+B+C+D,3
+A+B+D,3
+B+D+G,1

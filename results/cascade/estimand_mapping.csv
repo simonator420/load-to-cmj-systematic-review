@@ -1,0 +1,459 @@
+estimand,estimand_family,n_rows
+Pearson correlation (r),correlation_type_unclassified_in_source,9
+Kendall's tau_b (range across CMJ metrics),correlation_type_unclassified_in_source,2
+Pearson correlation / repeated-measures ANOVA,correlation_type_unclassified_in_source,1
+mean difference/% change,group_or_time_contrast,66
+"standardized mean difference (SMD) vs baseline, linear mixed model",group_or_time_contrast,55
+mean (SD),group_or_time_contrast,30
+standardised effect size (mean difference / baseline within-individual SD) vs baseline,group_or_time_contrast,28
+mean difference vs baseline,group_or_time_contrast,26
+% change in mean vs baseline,group_or_time_contrast,24
+"Cohen's d [95% CI], pre-post",group_or_time_contrast,24
+Cohen's d vs baseline,group_or_time_contrast,24
+Cohen's effect size (ES) for within-trial baseline vs post-training comparison,group_or_time_contrast,24
+repeated-measures ANOVA,group_or_time_contrast,19
+"mean difference vs week 1 (+/-90% CI), log-transformed mixed model",group_or_time_contrast,18
+mean difference,group_or_time_contrast,17
+"linear mixed model adjusted mean, % difference",group_or_time_contrast,15
+"mean change, Hedges' g",group_or_time_contrast,14
+"raw mean difference vs baseline (+/-90% CL), magnitude-based inference",group_or_time_contrast,14
+% mean change (90% CL),group_or_time_contrast,13
+"Cohen's d effect size, within-group (magnitude-based inference)",group_or_time_contrast,13
+Cohen's d,group_or_time_contrast,12
+Linear mixed model standardized effect size,group_or_time_contrast,12
+mean % change vs baseline,group_or_time_contrast,12
+mean change between timepoints (within trial),group_or_time_contrast,12
+mean difference (ES) vs pre-match,group_or_time_contrast,12
+mean difference (post - pre),group_or_time_contrast,12
+"mean difference vs pre-session (post vs PRE, repeated-measures ANOVA, Bonferroni paired comparisons)",group_or_time_contrast,12
+"mean difference/% change (pre-match vs post-match, mean (SD))",group_or_time_contrast,12
+paired t-test,group_or_time_contrast,12
+raw mean change between consecutive time points (+/-90% CL),group_or_time_contrast,12
+mean % change,group_or_time_contrast,11
+mean difference vs pre-match,group_or_time_contrast,11
+mean change; effect size,group_or_time_contrast,10
+% difference vs pre-match (magnitude-based),group_or_time_contrast,9
+mean change,group_or_time_contrast,9
+mean difference/% change (and standardized ES),group_or_time_contrast,9
+mean change from pre (paired),group_or_time_contrast,8
+"mean difference (paired comparison, Cohen's d)",group_or_time_contrast,8
+mean difference (pre vs post / 24 h),group_or_time_contrast,8
+mean difference vs baseline (Thursday ~45 h pre-game),group_or_time_contrast,8
+"mean difference, paired comparison",group_or_time_contrast,8
+mean difference/% change (baseline vs timepoint; model estimated means),group_or_time_contrast,8
+mean difference/% change vs pre-match (2 h pre),group_or_time_contrast,8
+mean ± SD; Friedman test for overall time effect,group_or_time_contrast,8
+raw mean ± SD,group_or_time_contrast,8
+standardized mean difference (Cohen's d) vs pre-match baseline,group_or_time_contrast,8
+standardized mean difference vs baseline (time effect),group_or_time_contrast,8
+mean difference vs day 1 baseline,group_or_time_contrast,7
+"paired comparison, Hedges' g",group_or_time_contrast,7
+standardized mean difference (post vs pre) after simulated match,group_or_time_contrast,7
+between-trial difference (double minus single),group_or_time_contrast,6
+linear mixed model effect size (d) vs PRE,group_or_time_contrast,6
+mean % change pre/post,group_or_time_contrast,6
+mean % change vs baseline (ES +/- 90% CL),group_or_time_contrast,6
+"mean (SD), repeated-measures ANOVA time effect",group_or_time_contrast,6
+mean change (within-LIST group),group_or_time_contrast,6
+mean difference (estimated marginal means; Holm-adjusted),group_or_time_contrast,6
+mean difference (paired t-test),group_or_time_contrast,6
+"mean difference (raw means, Table 1; Con/Cryo by trial)",group_or_time_contrast,6
+mean difference vs baseline (standardized ES),group_or_time_contrast,6
+mean difference with effect size,group_or_time_contrast,6
+mean difference/% change vs pre-exercise baseline,group_or_time_contrast,6
+"paired t-test, Hedges' g",group_or_time_contrast,6
+"repeated-measures ANOVA, main effect of time",group_or_time_contrast,6
+"standardised mean change (Cohen d, 90% CL), within the Between-player group, all tournaments (n=22; 17 tournaments)",group_or_time_contrast,6
+"standardised mean change (Cohen d, 90% CL), within the Domestic tournaments (n=4)",group_or_time_contrast,6
+"standardised mean change (Cohen d, 90% CL), within the International tournaments (n=13)",group_or_time_contrast,6
+"standardised mean change (Cohen d, 90% CL), within the Long-haul travel (>5 h) tournaments, within-player subgroup (n=9 tournaments)",group_or_time_contrast,6
+"standardised mean change (Cohen d, 90% CL), within the Short-haul travel (<5 h) tournaments, within-player subgroup (n=8 tournaments)",group_or_time_contrast,6
+"standardised mean change (Cohen d, 90% CL), within the Within-player subgroup, all tournaments (12 players; 17 tournaments)",group_or_time_contrast,6
+standardised mean difference vs baseline (decrease),group_or_time_contrast,6
+standardized mean difference (Cohen d) vs pre-match baseline,group_or_time_contrast,6
+% change vs baseline,group_or_time_contrast,5
+mean at time point (repeated-measures; no baseline-referenced diff printed),group_or_time_contrast,5
+mean difference (post vs pre),group_or_time_contrast,5
+mean difference/% change pre vs post RSA,group_or_time_contrast,5
+mean value pre vs post,group_or_time_contrast,5
+"paired comparison (Bonferroni-corrected, α=0.003)",group_or_time_contrast,5
+repeated-measures ANOVA main effect of time,group_or_time_contrast,5
+standardised mean difference vs baseline,group_or_time_contrast,5
+"% change and ES vs baseline (log-transformed, magnitude-based inference)",group_or_time_contrast,4
+Cohen's d effect size,group_or_time_contrast,4
+Hedges' g effect size (95% CI),group_or_time_contrast,4
+Mean percent change ± SD,group_or_time_contrast,4
+"Standardized effect size (ES ± 90% CL, Hopkins method)",group_or_time_contrast,4
+"Two-way repeated-measures ANOVA (trial x time), log-transformed values; median (IQR) reported",group_or_time_contrast,4
+between-group mean difference,group_or_time_contrast,4
+between-protocol difference in mean change,group_or_time_contrast,4
+group mean ± SE,group_or_time_contrast,4
+linear mixed-model effect (change in CMJ per 2 within-player SD increase in match load),group_or_time_contrast,4
+mean % change vs baseline (-24 h),group_or_time_contrast,4
+mean % change vs benchmark CMJ taken before M1 (possibly small decrease),group_or_time_contrast,4
+"mean +/- SD, repeated-measures 2-way ANOVA (time x group), simple main effect",group_or_time_contrast,4
+"mean change from baseline, repeated-measures ANOVA with post-hoc, Cohen's d",group_or_time_contrast,4
+"mean difference (EMM contrast, baseline - post)",group_or_time_contrast,4
+"mean difference (protocol main effect, LMM; pre vs post)",group_or_time_contrast,4
+mean difference pre- to post-match (LMM estimate +/- SE/SD as printed),group_or_time_contrast,4
+mean difference vs pre-exercise,group_or_time_contrast,4
+mean difference/% change (paired t-test),group_or_time_contrast,4
+mean difference/% change (post vs pre),group_or_time_contrast,4
+"mean percentage change (MBI, 90% CI)",group_or_time_contrast,4
+"mean ± SD, between-group comparison",group_or_time_contrast,4
+"mean ± SD, morning vs afternoon, with % recovery/delta",group_or_time_contrast,4
+mean(SD),group_or_time_contrast,4
+one-way repeated measures ANOVA (pre vs post),group_or_time_contrast,4
+paired significance test vs baseline,group_or_time_contrast,4
+percentage asymmetry and Cohen's d vs pre-match,group_or_time_contrast,4
+"post-hoc paired comparison, Cohen's d",group_or_time_contrast,4
+"post-hoc pairwise comparison, Cohen's d",group_or_time_contrast,4
+pre-post mean difference; % change and ES (+/-90% CL),group_or_time_contrast,4
+standardised mean change from baseline (ES),group_or_time_contrast,4
+standardized mean difference (ES vs baseline),group_or_time_contrast,4
+within-group change,group_or_time_contrast,4
+ANCOVA (baseline as covariate) within-protocol effect size,group_or_time_contrast,3
+Cohen's d effect size (magnitude-based inference),group_or_time_contrast,3
+Linear mixed model simple effect: high- vs low-IMTP group difference in CMJ height at given post-match day,group_or_time_contrast,3
+"Mean (SD, 95% CI) and % change from pre-value",group_or_time_contrast,3
+"between-condition ANCOVA, Bayesian t-test",group_or_time_contrast,3
+between-condition comparison,group_or_time_contrast,3
+decrease vs baseline (Cohen d),group_or_time_contrast,3
+descriptive mean ± SD by pubertal group,group_or_time_contrast,3
+difference in % change between load tertiles,group_or_time_contrast,3
+effect size (ES with 95% CI),group_or_time_contrast,3
+"group means (repeated-measures ANOVA, no significant group or time*group effect)",group_or_time_contrast,3
+"linear mixed model, standardized mean difference (SMD)",group_or_time_contrast,3
+"linear mixed-model estimate, standardized effect size ±95% confidence limits (magnitude-based inference)",group_or_time_contrast,3
+mean % change pre->post,group_or_time_contrast,3
+"mean between-group difference (CWI minus CON) with Cohen's d effect size, magnitude-based inference",group_or_time_contrast,3
+mean change (pre vs post),group_or_time_contrast,3
+"mean change ± SD by pubertal group, repeated-measures ANOVA",group_or_time_contrast,3
+mean difference (48 h vs pre-match baseline),group_or_time_contrast,3
+mean difference (paired comparison),group_or_time_contrast,3
+mean difference (post vs pre-match baseline),group_or_time_contrast,3
+mean difference (pre vs post),group_or_time_contrast,3
+mean difference (time course),group_or_time_contrast,3
+mean difference MD-1 to MD+2 within group,group_or_time_contrast,3
+mean difference in change scores (between-surface),group_or_time_contrast,3
+mean difference pre vs post,group_or_time_contrast,3
+mean difference pre vs post (Wilcoxon),group_or_time_contrast,3
+mean difference pre->post,group_or_time_contrast,3
+mean difference pre-post (Cohen d),group_or_time_contrast,3
+mean difference vs baseline (pooled),group_or_time_contrast,3
+mean difference vs pre-match (match-day morning) baseline; non-starters,group_or_time_contrast,3
+mean difference vs pre-match (match-day morning) baseline; starters,group_or_time_contrast,3
+mean difference within group,group_or_time_contrast,3
+mean difference/% change (linear mixed model),group_or_time_contrast,3
+mean difference/% change (pre vs post),group_or_time_contrast,3
+mean difference/% change vs baseline,group_or_time_contrast,3
+"mean ± SD, paired comparison",group_or_time_contrast,3
+observed mean change from baseline (Bayesian multilevel model),group_or_time_contrast,3
+"one-way repeated-measures ANOVA with Bonferroni post-hoc, Cohen's d",group_or_time_contrast,3
+paired t-test on change scores,group_or_time_contrast,3
+"repeated-measures ANOVA with Bonferroni post-hoc, % change",group_or_time_contrast,3
+"repeated-measures ANOVA/paired comparison, % change from baseline",group_or_time_contrast,3
+within-protocol effect size (ES),group_or_time_contrast,3
+% change (repeated-measures ANOVA),group_or_time_contrast,2
+% change from baseline,group_or_time_contrast,2
+"% change from baseline (magnitude-based inference, log-transformed)",group_or_time_contrast,2
+% change pre-post,group_or_time_contrast,2
+"% change, 1-way repeated-measures ANOVA",group_or_time_contrast,2
+"% impairment, repeated-measures ANOVA",group_or_time_contrast,2
+ANOVA (F-test),group_or_time_contrast,2
+Between-condition % change comparison (mean +/- SD) with Cohen's d,group_or_time_contrast,2
+Cohen's d effect size (between-condition),group_or_time_contrast,2
+"Condition×Time interaction, repeated-measures ANOVA",group_or_time_contrast,2
+"Group×Time interaction, repeated-measures ANOVA",group_or_time_contrast,2
+"Mean difference (90% confidence interval) from magnitude-based inference, confirmed by paired t-test",group_or_time_contrast,2
+Mean pre-post change; between-condition (C-RSA vs L-RSA) paired comparison,group_or_time_contrast,2
+"Post-Pre mean difference, independent t-test",group_or_time_contrast,2
+"Post-Pre mean difference, independent t-test between protocols",group_or_time_contrast,2
+Time×Group interaction (mixed model),group_or_time_contrast,2
+between-condition difference (CWI vs CON),group_or_time_contrast,2
+between-condition difference (CWI vs CON); ES,group_or_time_contrast,2
+"between-condition mean difference (post-exercise values); time x group interaction F = 11.0, p < .001, eta2p = .211",group_or_time_contrast,2
+between-group difference corrected for baseline,group_or_time_contrast,2
+between-group mean difference / independent t-test,group_or_time_contrast,2
+descriptive mean change (repeated-measures mixed-effects model),group_or_time_contrast,2
+descriptive trend across sessions (no formal trend test reported),group_or_time_contrast,2
+effect size vs baseline,group_or_time_contrast,2
+"group means, repeated-measures comparison (pre vs post vs 48h)",group_or_time_contrast,2
+individual raw pre/post values,group_or_time_contrast,2
+"linear mixed model, post-hoc contrast (CW vs RW)",group_or_time_contrast,2
+main effect of time (likelihood-ratio chi-square),group_or_time_contrast,2
+mean % decline Day 1 to Day 5,group_or_time_contrast,2
+mean % decrease from pre-trial,group_or_time_contrast,2
+mean change (Pre/Post/48h),group_or_time_contrast,2
+mean difference pre-post,group_or_time_contrast,2
+"mean difference pre-post (-0.97 cm fed; -1.14 cm fasting, computed from printed means)",group_or_time_contrast,2
+mean difference vs baseline (-24 h),group_or_time_contrast,2
+mean difference vs control condition,group_or_time_contrast,2
+mean difference vs pretest,group_or_time_contrast,2
+"mean difference, magnitude-based inference (ES)",group_or_time_contrast,2
+mean difference/% change (ES),group_or_time_contrast,2
+mean difference/% change from baseline,group_or_time_contrast,2
+mean difference/% change vs resting condition,group_or_time_contrast,2
+mean percent change,group_or_time_contrast,2
+"mean percentage difference (MBI, 90% CI)",group_or_time_contrast,2
+mean value comparison (significant per post-hoc test),group_or_time_contrast,2
+"mixed-model, Time main effect",group_or_time_contrast,2
+multivariate repeated-measures test (Pillai's Trace) across 4 timepoints,group_or_time_contrast,2
+"paired Student's t-test, Cohen's d",group_or_time_contrast,2
+"paired comparison, Cohen's d",group_or_time_contrast,2
+"paired pre-post comparison (mixed model ANOVA, within-group)",group_or_time_contrast,2
+"percent change from baseline (mixed model ANOVA, main effect of match)",group_or_time_contrast,2
+"percent change from pre-game baseline, within-subject",group_or_time_contrast,2
+qualitative likelihood inference (MBI),group_or_time_contrast,2
+repeated-measures ANOVA (main effect of time) with pairwise comparisons,group_or_time_contrast,2
+repeated-measures ANOVA (time main effect),group_or_time_contrast,2
+"repeated-measures ANOVA (time main effect), group-specific means",group_or_time_contrast,2
+"repeated-measures ANOVA + Bonferroni post-hoc, Cohen's d",group_or_time_contrast,2
+repeated-measures ANOVA + post-hoc mean difference,group_or_time_contrast,2
+"repeated-measures ANOVA post-hoc, Cohen's d",group_or_time_contrast,2
+"repeated-measures ANOVA with Bonferroni post-hoc, Cohen's d",group_or_time_contrast,2
+"repeated-measures ANOVA, condition main effect",group_or_time_contrast,2
+"repeated-measures ANOVA, pairwise time comparison",group_or_time_contrast,2
+"standardised mean difference (ES, 90% CL); baseline minus post",group_or_time_contrast,2
+standardized effect size,group_or_time_contrast,2
+standardized effect size derived from mixed model,group_or_time_contrast,2
+"two-way ANOVA (condition x time), % change from baseline",group_or_time_contrast,2
+"% change (time main effect, ANOVA)",group_or_time_contrast,1
+"% change / standardised mean change (log-transformed, magnitude-based inference)",group_or_time_contrast,1
+% change from baseline (repeated-measures ANOVA),group_or_time_contrast,1
+% change from pre-match baseline (repeated-measures ANOVA + Cohen's d ES),group_or_time_contrast,1
+"% of baseline ± SD, effect size",group_or_time_contrast,1
+"% of baseline ± SD, effect size vs control",group_or_time_contrast,1
+1-way repeated-measures ANOVA contrast,group_or_time_contrast,1
+"2x2 repeated-measures ANOVA, protocol x time interaction (partial eta-squared)",group_or_time_contrast,1
+"Between-group comparison at posttest with Cohen's effect size (ES, relative to passive recovery)",group_or_time_contrast,1
+Chi-square test,group_or_time_contrast,1
+Cohen's d (7 d vs 9 d microcycle),group_or_time_contrast,1
+"Cohen's d (90% CI), magnitude-based inference",group_or_time_contrast,1
+Cohen's d (non-significant trend),group_or_time_contrast,1
+"Cohen's d effect size (between-condition, SDEP vs CONT)",group_or_time_contrast,1
+Cohen's d effect size (magnitude-based inference) with SD of difference; text also reports p-value from linear mixed model,group_or_time_contrast,1
+Cohen's d effect size (repeated-measures ANOVA with Bonferroni post-hoc),group_or_time_contrast,1
+Cohen's d effect size vs pre-match (main time effect),group_or_time_contrast,1
+"Cohen's d effect size, high vs low load comparison",group_or_time_contrast,1
+"Cohen's d effect size, post hoc pairwise comparisons",group_or_time_contrast,1
+Descriptive % decline (text summary),group_or_time_contrast,1
+Descriptive % decrement relative to baseline by group,group_or_time_contrast,1
+Descriptive pre- vs post-match difference (no significant time x group interaction reported for U16 specifically),group_or_time_contrast,1
+F-test (linear mixed model main effects),group_or_time_contrast,1
+Group main effect (mixed ANOVA); Tukey post hoc; Cohen's d effect size,group_or_time_contrast,1
+Linear mixed model simple effects: high- vs low-MAST group difference in CMJ height at each post-match day,group_or_time_contrast,1
+Linear mixed model standardized effect size (2 within-subject SD change in predictor) with magnitude-based inference,group_or_time_contrast,1
+"Mean difference (Pre-match vs Post-match, descriptive; formal test not isolated to this timepoint)",group_or_time_contrast,1
+Mean difference (Student's t-test) with Cohen's d,group_or_time_contrast,1
+"Mean difference (paired) with % change, p, Cohen's d",group_or_time_contrast,1
+"Mean difference between conditions (curcumin minus control), Hedge's g",group_or_time_contrast,1
+Mixed-design ANOVA / paired t-tests vs baseline,group_or_time_contrast,1
+Mixed-design ANOVA main effect of time,group_or_time_contrast,1
+Mixed-design ANOVA with paired comparisons vs baseline,group_or_time_contrast,1
+"Paired samples t-test (mean difference), Cohen's d",group_or_time_contrast,1
+"RM-ANCOVA pairwise (Bonferroni post hoc) pre- vs post-match difference, Cohen's d",group_or_time_contrast,1
+"Repeated-measures ANOVA partial eta squared (main time effect, recovery period) + mean ± SD",group_or_time_contrast,1
+Repeated-measures ANOVA partial eta squared (time effect) + mean ± SD,group_or_time_contrast,1
+"Repeated-measures ANOVA time main effect (2 supplement x 4 time-point), pooled across curcumin/control conditions",group_or_time_contrast,1
+Time×Format interaction,group_or_time_contrast,1
+"Two-way repeated-measures ANOVA (time; group x treatment interaction), FIR vs placebo clothes",group_or_time_contrast,1
+"Wilcoxon signed-rank test, rank-biserial effect size",group_or_time_contrast,1
+"Within-group mean change, pretest to posttest",group_or_time_contrast,1
+"between-condition ANCOVA (baseline as covariate), Bayesian t-test",group_or_time_contrast,1
+between-condition comparison at half-time,group_or_time_contrast,1
+between-condition difference (time x condition interaction),group_or_time_contrast,1
+"between-condition difference (treatment effect, treatment x time)",group_or_time_contrast,1
+between-condition standardized difference (magnitude-based inference),group_or_time_contrast,1
+between-group ANCOVA difference (baseline covariate),group_or_time_contrast,1
+between-group difference (ANCOVA adjusted for prematch CMJ),group_or_time_contrast,1
+between-group difference in mean % change,group_or_time_contrast,1
+"between-group difference, ANCOVA adjusted for pre-match",group_or_time_contrast,1
+between-groups repeated-measures ANOVA,group_or_time_contrast,1
+between-trial difference (IPP timing),group_or_time_contrast,1
+between-trial standardised difference,group_or_time_contrast,1
+change vs baseline,group_or_time_contrast,1
+comparison across season phases,group_or_time_contrast,1
+condition main effect (CYCLE vs RUN vs CONTROL),group_or_time_contrast,1
+condition x time interaction (ANOVA),group_or_time_contrast,1
+condition × time interaction (repeated-measures ANOVA),group_or_time_contrast,1
+decrease vs baseline,group_or_time_contrast,1
+descriptive group mean comparison,group_or_time_contrast,1
+descriptive mean (SD),group_or_time_contrast,1
+"descriptive mean change (repeated-measures mixed-effects model, time effect)",group_or_time_contrast,1
+"descriptive mean comparison (PRE vs POST, all players pooled)",group_or_time_contrast,1
+"descriptive weekly means with pairwise effect sizes (Hopkins ES); no explicit ANOVA p-value reported for this specific outcome (CMJ cm) in text, only in Table 2 without significance asterisk",group_or_time_contrast,1
+difference between conditions in change (GLMM contrast),group_or_time_contrast,1
+"effect size (ES) ± 90% CI, MBI",group_or_time_contrast,1
+"effect size (ES) ± 90% CI, magnitude-based inference",group_or_time_contrast,1
+"group difference (independent t-tests across days, high vs low HSR loaders)",group_or_time_contrast,1
+group x time interaction (ANOVA),group_or_time_contrast,1
+"group x time interaction, repeated-measures ANOVA",group_or_time_contrast,1
+"interaction (condition x time), IVO vs PLA",group_or_time_contrast,1
+linear mixed model adjusted mean difference (significant),group_or_time_contrast,1
+linear mixed model adjusted mean difference between non-tackle and tackle post-session values,group_or_time_contrast,1
+"linear mixed model, Week x Time interaction",group_or_time_contrast,1
+magnitude-based inference (mean ± SD group comparison),group_or_time_contrast,1
+main effect of condition (ANOVA),group_or_time_contrast,1
+main effect of group (ANOVA),group_or_time_contrast,1
+main effect of temperature (LMM),group_or_time_contrast,1
+main effect of time (ANOVA),group_or_time_contrast,1
+main effect of time (repeated-measures ANOVA),group_or_time_contrast,1
+mean % change / ES,group_or_time_contrast,1
+mean % change from baseline,group_or_time_contrast,1
+"mean % change vs baseline (time effect), both conditions pooled in ANOVA",group_or_time_contrast,1
+mean % change vs benchmark CMJ taken before M1 (likely trivial),group_or_time_contrast,1
+mean % change vs benchmark CMJ taken before M1 (unclear),group_or_time_contrast,1
+"mean % change ± SE (pooled, repeated-measures ANOVA)",group_or_time_contrast,1
+"mean % change, Hedges' g",group_or_time_contrast,1
+mean (pre vs post),group_or_time_contrast,1
+"mean change (% change, Pre to Post)",group_or_time_contrast,1
+mean change (post to post-7d),group_or_time_contrast,1
+mean change (pre to post-7d),group_or_time_contrast,1
+mean change from baseline (ES),group_or_time_contrast,1
+"mean change from baseline (T0), repeated measures ANOVA with post-hoc pairwise comparison",group_or_time_contrast,1
+mean change vs baseline,group_or_time_contrast,1
+mean change vs baseline (PLA condition),group_or_time_contrast,1
+mean change within control trial,group_or_time_contrast,1
+"mean change ± SD, ANOVA/paired test",group_or_time_contrast,1
+mean decline ± SD with 95% CI,group_or_time_contrast,1
+mean difference (LMM),group_or_time_contrast,1
+mean difference (PRE vs POST1),group_or_time_contrast,1
+mean difference (PRE vs POST2),group_or_time_contrast,1
+mean difference (descriptive means PRE->POST by session type),group_or_time_contrast,1
+mean difference (paired) with Cohen's d effect size,group_or_time_contrast,1
+mean difference (pre vs 48 h),group_or_time_contrast,1
+mean difference (pre vs half-time),group_or_time_contrast,1
+mean difference (pre vs post-match),group_or_time_contrast,1
+"mean difference (resting CMJ vs post-IET recovery CMJ, pre-supplementation session)",group_or_time_contrast,1
+"mean difference (resting vs post-IET recovery CMJ, pre-supplementation session)",group_or_time_contrast,1
+mean difference (time effect),group_or_time_contrast,1
+mean difference / effect size,group_or_time_contrast,1
+mean difference HOT vs CON,group_or_time_contrast,1
+mean difference RWU vs CON (intervention effect),group_or_time_contrast,1
+mean difference across days (repeated-measures ANOVA),group_or_time_contrast,1
+mean difference between periodization weeks (TEST),group_or_time_contrast,1
+mean difference between surfaces,group_or_time_contrast,1
+mean difference pre- to post-match,group_or_time_contrast,1
+mean difference vs baseline (BET condition),group_or_time_contrast,1
+mean difference vs baseline (Bonferroni post hoc),group_or_time_contrast,1
+mean difference vs baseline (PLA condition),group_or_time_contrast,1
+"mean difference vs pre (pooled, time main effect)",group_or_time_contrast,1
+mean difference with effect size (d),group_or_time_contrast,1
+mean difference/% change (POST vs CON),group_or_time_contrast,1
+"mean difference/% change (post vs pre), PBMT session",group_or_time_contrast,1
+"mean difference/% change (post vs pre), placebo session",group_or_time_contrast,1
+mean difference/% change (time effect),group_or_time_contrast,1
+"mean percentage change (magnitude-based inference, 90% CI)",group_or_time_contrast,1
+"mean pre-post difference (paired comparison, experimental group)",group_or_time_contrast,1
+"mean values across timepoints, no significant post-hoc differences",group_or_time_contrast,1
+mean values with ANOVA main effects,group_or_time_contrast,1
+"mixed-model ANOVA, main effect of time",group_or_time_contrast,1
+"mixed-model, Time main effect (Table 2)",group_or_time_contrast,1
+"mixed-model, Time main effect (borderline)",group_or_time_contrast,1
+"mixed-model, Time main effect (non-significant)",group_or_time_contrast,1
+one-way ANOVA,group_or_time_contrast,1
+one-way ANOVA with Bonferroni post-hoc,group_or_time_contrast,1
+one-way ANOVA with Tukey post hoc; % change from baseline,group_or_time_contrast,1
+one-way repeated-measures ANOVA (week as factor) with pairwise effect sizes (Hopkins ES),group_or_time_contrast,1
+"paired comparison vs baseline, Cohen's d",group_or_time_contrast,1
+paired t-test mean difference / Cohen's effect size (ES) with 95% CI,group_or_time_contrast,1
+"paired t-test, Cohen's d",group_or_time_contrast,1
+"paired t-test, Cohen's d with 95% CI",group_or_time_contrast,1
+"paired/Wilcoxon comparison, Hedges' g",group_or_time_contrast,1
+"pooled mean value HT vs FT, % change",group_or_time_contrast,1
+"pooled mean value pre vs FT, % change",group_or_time_contrast,1
+"pooled mean value pre vs HT, % change",group_or_time_contrast,1
+pre vs 2 h post-hoc comparison (pooled),group_or_time_contrast,1
+pre vs 24 h post-hoc comparison (pooled),group_or_time_contrast,1
+pre-post comparison,group_or_time_contrast,1
+"quadratic mixed model, standardized effect for +1SD change in load",group_or_time_contrast,1
+"quadratic mixed model, standardized effect for mean to +1SD change in load",group_or_time_contrast,1
+qualitative recovery timepoint comparison,group_or_time_contrast,1
+raw mean ± SD (recovered to baseline per text; no discrete ES reported for this lag),group_or_time_contrast,1
+"raw mean ± SD, between-group mean difference (95% CI) reported; no within-group time-effect statistic given beyond 'no significant time/interaction effects (all p>0.05)'",group_or_time_contrast,1
+raw mean ± SD; two-way ANOVA (surface x game) with post-hoc Bonferroni; no significant differences,group_or_time_contrast,1
+repeated-measures ANOVA (NoN vs N25 vs N60),group_or_time_contrast,1
+repeated-measures ANOVA (condition x time interaction; main effect of time),group_or_time_contrast,1
+repeated-measures ANOVA (main effect of time; recovery-modality effect; time x condition interaction),group_or_time_contrast,1
+repeated-measures ANOVA (main effect) with Bonferroni post hoc,group_or_time_contrast,1
+repeated-measures ANOVA (omnibus F),group_or_time_contrast,1
+repeated-measures ANOVA (one-way) across timepoints,group_or_time_contrast,1
+repeated-measures ANOVA (time x TOD x condition interaction),group_or_time_contrast,1
+repeated-measures ANOVA (time x format interaction) / paired comparison,group_or_time_contrast,1
+repeated-measures ANOVA (within-subject F-test),group_or_time_contrast,1
+repeated-measures ANOVA main effect (condition) and (time),group_or_time_contrast,1
+repeated-measures ANOVA main effect / paired mean difference,group_or_time_contrast,1
+repeated-measures ANOVA main effect of condition; Cohen's d,group_or_time_contrast,1
+"repeated-measures ANOVA with Bonferroni post-hoc, % change from pre-match",group_or_time_contrast,1
+repeated-measures ANOVA with pairwise comparisons (Cohen's d),group_or_time_contrast,1
+repeated-measures ANOVA with post-hoc mean difference,group_or_time_contrast,1
+"repeated-measures ANOVA, Hedges' g effect size",group_or_time_contrast,1
+"repeated-measures ANOVA, group × fatigue interaction",group_or_time_contrast,1
+"repeated-measures ANOVA, main effect of testing time (morning vs afternoon), pooled across recovery modes and jump tests",group_or_time_contrast,1
+"repeated-measures ANOVA, main effect of time (pooled across HBOT/CON)",group_or_time_contrast,1
+"repeated-measures ANOVA, main effect of time (pre vs post)",group_or_time_contrast,1
+"repeated-measures ANOVA, partial eta-squared",group_or_time_contrast,1
+repeated-measures comparison,group_or_time_contrast,1
+repeated-measures comparison across time points,group_or_time_contrast,1
+repeated-measures comparison vs baseline,group_or_time_contrast,1
+return-to-baseline comparison,group_or_time_contrast,1
+"standardized effect size (magnitude-based inference), mean comparison",group_or_time_contrast,1
+time effect (repeated-measures ANOVA),group_or_time_contrast,1
+two-way ANOVA interaction (set x condition) and main effect of set,group_or_time_contrast,1
+"two-way mixed ANOVA, main effect of time on delta-CMJ",group_or_time_contrast,1
+"two-way repeated measures ANOVA (Group x Time), within-group change, PLA group",group_or_time_contrast,1
+"two-way repeated measures ANOVA (Group x Time), within-group change, TCJ group",group_or_time_contrast,1
+"two-way repeated measures ANOVA, main effect of bout",group_or_time_contrast,1
+"two-way repeated-measures ANOVA (main effect of time), eta-squared",group_or_time_contrast,1
+"two-way repeated-measures ANOVA, time x group interaction",group_or_time_contrast,1
+within-condition change,group_or_time_contrast,1
+within-condition paired comparison,group_or_time_contrast,1
+"within-condition paired comparison, Cohen's d",group_or_time_contrast,1
+within-condition pre-post effect size (Cohen's ES) and Bayes factor,group_or_time_contrast,1
+within-group repeated-measures ANOVA (Foam group),group_or_time_contrast,1
+within-group repeated-measures ANOVA (Stretch group),group_or_time_contrast,1
+within-subject change over time (repeated-measures ANOVA),group_or_time_contrast,1
+"GAMM smooth-term association (negative, non-linear)",other_or_unspecified_model_or_test,5
+linear mixed-effects model,other_or_unspecified_model_or_test,5
+not specified,other_or_unspecified_model_or_test,3
+"generalized additive mixed model (edf, F)",other_or_unspecified_model_or_test,2
+mediation analysis: ACME / ADE,other_or_unspecified_model_or_test,2
+GAMM smooth-term association,other_or_unspecified_model_or_test,1
+association (repeated measures; statistic not given),other_or_unspecified_model_or_test,1
+association (statistic not given),other_or_unspecified_model_or_test,1
+covariate association (mixed model),other_or_unspecified_model_or_test,1
+linear mixed-effects model (Model 1),other_or_unspecified_model_or_test,1
+linear mixed-effects model (Model 2),other_or_unspecified_model_or_test,1
+linear mixed-effects model (Model 3),other_or_unspecified_model_or_test,1
+linear mixed-effects model (player ID random effect),other_or_unspecified_model_or_test,1
+linear mixed-effects model fixed-effect covariate (partial eta-squared),other_or_unspecified_model_or_test,1
+mediation analysis: ACME (indirect effect) / ADE (direct effect),other_or_unspecified_model_or_test,1
+univariate test within mixed-effects framework (Model 4),other_or_unspecified_model_or_test,1
+univariate test within mixed-effects framework (Model 5),other_or_unspecified_model_or_test,1
+"Bayesian R2 (dose-response random-intercept model, participant intercepts varying, time-between-jumps as covariate)",regression_or_model_coefficient_or_R2,104
+multiple linear regression coefficient (individual-level change in CMJ),regression_or_model_coefficient_or_R2,54
+Linear mixed-effects model beta,regression_or_model_coefficient_or_R2,14
+LMM coefficient (change per exposure),regression_or_model_coefficient_or_R2,10
+GEE regression coefficient (β),regression_or_model_coefficient_or_R2,6
+interaction (load slope differs across time points),regression_or_model_coefficient_or_R2,5
+Robust median quantile regression standardized β,regression_or_model_coefficient_or_R2,4
+mixed-model coefficient (B),regression_or_model_coefficient_or_R2,4
+linear mixed-effects model fixed-effect slope,regression_or_model_coefficient_or_R2,3
+"GEE regression coefficient (β), interaction",regression_or_model_coefficient_or_R2,2
+"GEE regression coefficient (β), main effect",regression_or_model_coefficient_or_R2,2
+"Multiple linear regression (stepwise), R² and model equation",regression_or_model_coefficient_or_R2,2
+within-subject linear mixed-effects model coefficient,regression_or_model_coefficient_or_R2,2
+LMM coefficient (post vs pre),regression_or_model_coefficient_or_R2,1
+LMM coefficient (slope per sprint),regression_or_model_coefficient_or_R2,1
+Linear mixed-effects model beta (athlete ID random intercept),regression_or_model_coefficient_or_R2,1
+"linear mixed-effects model fixed-effect slope (regression coefficient, beta)",regression_or_model_coefficient_or_R2,1
+linear mixed-model beta coefficient,regression_or_model_coefficient_or_R2,1
+linear regression coefficient (CMJ change ~ PAH%),regression_or_model_coefficient_or_R2,1
+moderated slope (high LBP),regression_or_model_coefficient_or_R2,1
+moderated slope (stronger players),regression_or_model_coefficient_or_R2,1
+multiple regression,regression_or_model_coefficient_or_R2,1
+"principal component regression, beta coefficient",regression_or_model_coefficient_or_R2,1
+regression association (exact model/estimand not detailed in extractable text),regression_or_model_coefficient_or_R2,1
+unstandardised slope per 1 SD HIA; standardised d,regression_or_model_coefficient_or_R2,1
+unstandardised slope per 1 SD HSR; standardised d,regression_or_model_coefficient_or_R2,1

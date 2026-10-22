@@ -1,0 +1,499 @@
+{
+  "facts": {
+    "reports_included": 379,
+    "reports_by_stream": {
+      "included_primary": 192,
+      "included_contextual": 148,
+      "included_secondary": 39
+    },
+    "effect_rows_archived_file": 2093,
+    "effect_rows_from_excluded_records": 0,
+    "effect_rows_included": 2093,
+    "reports_with_rows": 345,
+    "contextual_without_rows": 34,
+    "reports_with_rows_by_stream": {
+      "primary": 192,
+      "contextual": 114,
+      "secondary": 39
+    },
+    "contextual_with_rows": 114,
+    "contextual_total": 148,
+    "classified_rows_total": 361,
+    "classified_rows_in_included_reports": 361,
+    "classified_rows_in_excluded_records": 0,
+    "poolable_yes": 71,
+    "rows_not_in_classified_file": 1732,
+    "derived_outcome_agreement_with_source_on_classified_rows": 0.9668,
+    "derived_outcome_agreement_n": [
+      349,
+      361
+    ],
+    "rows_unclassifiable": 0,
+    "within_cohort_construct_lag_outcome_families": 49,
+    "rows_sharing_family_with_another_retained_row": 35,
+    "rows_beyond_first_in_family": 22,
+    "linked_member_reports_with_retained_rows": [
+      "PMID_27918668",
+      "PMID_33555825"
+    ],
+    "linked_reports_with_both_members_retained": 0,
+    "rows_in_linked_reports": 138,
+    "retained_reports": 12,
+    "retained_reports_by_stream": {
+      "primary": 11,
+      "secondary": 1
+    },
+    "retained_cohort_tokens_source": 12,
+    "retained_cohort_keys_derived": 12,
+    "linkage_rows": 13,
+    "linkage_clusters": 6,
+    "linked_reports_included": 13,
+    "cohorts_among_all_included_reports": 372,
+    "linkage_status_clusters": {
+      "possible_overlap_unresolved": 3,
+      "confirmed_same_cohort": 3
+    },
+    "retained_reports_that_are_linked_members": {
+      "PMID_27918668": "THORPE_EPL_17D_C1",
+      "PMID_33555825": "ISHIDA_ETSU_WSOC_PAIR"
+    },
+    "partner_reports_without_retained_rows": [
+      "PMID_25710257",
+      "PMID_34708201"
+    ],
+    "primary_reports": 192,
+    "primary_reports_linked_members": 6,
+    "primary_report_cohorts": 190,
+    "primary_reports_retained": 11,
+    "strata": 41,
+    "max_cohorts_per_stratum": 3,
+    "strata_by_cohort_count": {
+      "1": 34,
+      "2": 6,
+      "3": 1
+    },
+    "strata_rows_per_stratum": {
+      "min": 1,
+      "max": 13,
+      "median": 1.0
+    },
+    "strata_with_single_row": 27,
+    "table2_domain": [
+      {
+        "exposure_domain": "external_load",
+        "strata": 34,
+        "rows": 60,
+        "maxc": 3
+      },
+      {
+        "exposure_domain": "internal_load",
+        "strata": 7,
+        "rows": 11,
+        "maxc": 2
+      }
+    ],
+    "table2_timing": [
+      {
+        "lag_window": "0-<6h",
+        "strata": 8,
+        "rows": 22,
+        "maxc": 3
+      },
+      {
+        "lag_window": "30-<54h",
+        "strata": 20,
+        "rows": 29,
+        "maxc": 2
+      },
+      {
+        "lag_window": "54-<78h",
+        "strata": 6,
+        "rows": 6,
+        "maxc": 1
+      },
+      {
+        "lag_window": "6-<30h",
+        "strata": 6,
+        "rows": 11,
+        "maxc": 2
+      },
+      {
+        "lag_window": "rolling_or_cumulative",
+        "strata": 1,
+        "rows": 3,
+        "maxc": 1
+      }
+    ],
+    "outcome_class_59": {
+      "jump_height_change": 53,
+      "jump_height_absolute": 18
+    },
+    "dependence_status_59": {
+      "independent_athletes": 39,
+      "repeated_observations_pooled": 17,
+      "unclear": 12,
+      "within_athlete_modelled": 3
+    },
+    "lag_window_59": {
+      "30-<54h": 29,
+      "0-<6h": 22,
+      "6-<30h": 11,
+      "54-<78h": 6,
+      "rolling_or_cumulative": 3
+    },
+    "retained_by_stream_rows": {
+      "primary": 67,
+      "secondary": 4
+    },
+    "rows_per_cohort_59": {
+      "ishida_etsu_wsoc": 16,
+      "ind_PMID_29339989": 12,
+      "ind_PMID_35077336": 10,
+      "ind_PMID_41210085": 10,
+      "ind_PMID_38028786": 6,
+      "ind_SD_196188164": 4,
+      "ind_SCOPUS_2-s2.0-105015532135": 3,
+      "thorpe_epl_2015": 3,
+      "ind_PMID_33348584": 2,
+      "ind_PMID_35627606": 2,
+      "ind_PMID_36430106": 2,
+      "ind_PMID_23443218": 1
+    },
+    "cohorts_of_retained_rows_with_one_report_each": true,
+    "review_status_all_rows": {
+      "eligible": 2022,
+      "not_eligible_for_synthesis": 58,
+      "approximate_graphical_extraction": 10,
+      "eligible_secondary_outcome_flight_time": 3
+    },
+    "review_status_by_first_failed": {
+      "A": {
+        "approximate_graphical_extraction": 10,
+        "eligible": 1698,
+        "eligible_secondary_outcome_flight_time": 0,
+        "not_eligible_for_synthesis": 52
+      },
+      "B": {
+        "approximate_graphical_extraction": 0,
+        "eligible": 194,
+        "eligible_secondary_outcome_flight_time": 3,
+        "not_eligible_for_synthesis": 4
+      },
+      "C": {
+        "approximate_graphical_extraction": 0,
+        "eligible": 39,
+        "eligible_secondary_outcome_flight_time": 0,
+        "not_eligible_for_synthesis": 2
+      },
+      "D": {
+        "approximate_graphical_extraction": 0,
+        "eligible": 20,
+        "eligible_secondary_outcome_flight_time": 0,
+        "not_eligible_for_synthesis": 0
+      },
+      "RETAINED": {
+        "approximate_graphical_extraction": 0,
+        "eligible": 71,
+        "eligible_secondary_outcome_flight_time": 0,
+        "not_eligible_for_synthesis": 0
+      }
+    },
+    "A_split": {
+      "non_classified_group_or_time_contrast": 1466,
+      "non_classified_regression_or_model_coefficient_or_R2": 225,
+      "non_classified_other_or_unspecified_model_or_test": 29,
+      "classified_correlation_type_but_no_usable_coefficient_or_not_association": 40
+    },
+    "B_split": {
+      "cmj_composite_or_other": 27,
+      "cmj_power_force_velocity": 144,
+      "cmj_strategy_or_timing": 7,
+      "derived_non_JH_unclassified_in_source": 12,
+      "flight_time_change (secondary CMJ outcome)": 3,
+      "not_cmj": 8
+    },
+    "T2_reports_by_first_failed_of_JH_rows": {
+      "C": 20,
+      "A": 9,
+      "D": 3,
+      "A+D": 1
+    },
+    "unique_estimand_strings_nonclassified": 458,
+    "nonclassified_estimand_families": {
+      "correlation_type_unclassified_in_source": 12,
+      "group_or_time_contrast": 1466,
+      "other_or_unspecified_model_or_test": 29,
+      "regression_or_model_coefficient_or_R2": 225
+    },
+    "classified_no_rows": 290,
+    "reason_flag_rows_C_by_reason_only_with_precedes_yes": 14,
+    "reports_with_classified_JH_rows": 45,
+    "reports_with_classified_rows": 62,
+    "secondary_report_with_retained_rows": [
+      "SD_196188164"
+    ],
+    "retained_internal_constructs": {
+      "sRPE_load": 7,
+      "ATL_ACWR": 2,
+      "RPE": 1,
+      "dehydration_body_mass_loss": 1
+    },
+    "retained_rows_lag_unclear_or_rolling": 3,
+    "retained_rows_dependence_not_independent_athletes": 32,
+    "rows_flagged_remove": 145,
+    "rows_needs_reextraction": 27,
+    "rows_eligible_primary_secondary_flag_yes": 1637,
+    "rows_net_of_flagged_remove": 1948
+  },
+  "cascade_order": [
+    {
+      "code": "A",
+      "name": "Estimand not a usable exposure-response association"
+    },
+    {
+      "code": "B",
+      "name": "Outcome not CMJ jump height"
+    },
+    {
+      "code": "C",
+      "name": "Exposure not a preceding quantified load / timing not eligible"
+    },
+    {
+      "code": "D",
+      "name": "Unit of analysis or dependence not usable"
+    },
+    {
+      "code": "G",
+      "name": "Other source-recorded data-integrity problem"
+    },
+    {
+      "code": "E",
+      "name": "Not selected by effect-selection hierarchy (within cohort x construct x lag family)"
+    },
+    {
+      "code": "F",
+      "name": "Duplicate / overlapping cohort (linked reports)"
+    }
+  ],
+  "cascade_table": [
+    {
+      "step": 0,
+      "criterion": "Effect rows of the 379 included reports (345 reports with rows)",
+      "rows_removed": 0,
+      "rows_remaining": 2093,
+      "reports_remaining": 345,
+      "cohorts_remaining": 339
+    },
+    {
+      "step": 1,
+      "criterion": "Estimand not a usable exposure-response association",
+      "rows_removed": 1760,
+      "rows_remaining": 333,
+      "reports_remaining": 52,
+      "cohorts_remaining": 48
+    },
+    {
+      "step": 2,
+      "criterion": "Outcome not CMJ jump height",
+      "rows_removed": 201,
+      "rows_remaining": 132,
+      "reports_remaining": 36,
+      "cohorts_remaining": 34
+    },
+    {
+      "step": 3,
+      "criterion": "Exposure not a preceding quantified load / timing not eligible",
+      "rows_removed": 41,
+      "rows_remaining": 91,
+      "reports_remaining": 16,
+      "cohorts_remaining": 16
+    },
+    {
+      "step": 4,
+      "criterion": "Unit of analysis or dependence not usable",
+      "rows_removed": 20,
+      "rows_remaining": 71,
+      "reports_remaining": 12,
+      "cohorts_remaining": 12
+    },
+    {
+      "step": 5,
+      "criterion": "Other source-recorded data-integrity problem",
+      "rows_removed": 0,
+      "rows_remaining": 71,
+      "reports_remaining": 12,
+      "cohorts_remaining": 12
+    },
+    {
+      "step": 6,
+      "criterion": "Not selected by effect-selection hierarchy (within cohort x construct x lag family)",
+      "rows_removed": 0,
+      "rows_remaining": 71,
+      "reports_remaining": 12,
+      "cohorts_remaining": 12
+    },
+    {
+      "step": 7,
+      "criterion": "Duplicate / overlapping cohort (linked reports)",
+      "rows_removed": 0,
+      "rows_remaining": 71,
+      "reports_remaining": 12,
+      "cohorts_remaining": 12
+    }
+  ],
+  "first_failed_counts": {
+    "A": 1760,
+    "B": 201,
+    "RETAINED": 71,
+    "C": 41,
+    "D": 20
+  },
+  "nonsequential_matrix": [
+    {
+      "criterion_code": "A",
+      "criterion": "Estimand not a usable exposure-response association",
+      "rows_assessable": 2093,
+      "rows_failing_regardless_of_order": 1760,
+      "rows_failing_ONLY_this_criterion": 739,
+      "first_failed_in_main_order": 1760,
+      "note": "all 2,093 assessed (estimand string / reason_if_no)"
+    },
+    {
+      "criterion_code": "B",
+      "criterion": "Outcome not CMJ jump height",
+      "rows_assessable": 2093,
+      "rows_failing_regardless_of_order": 1212,
+      "rows_failing_ONLY_this_criterion": 41,
+      "first_failed_in_main_order": 201,
+      "note": "1,732 non-classified rows use outcome_variable-derived JH flag (validated; see json)"
+    },
+    {
+      "criterion_code": "C",
+      "criterion": "Exposure not a preceding quantified load / timing not eligible",
+      "rows_assessable": 361,
+      "rows_failing_regardless_of_order": 104,
+      "rows_failing_ONLY_this_criterion": 29,
+      "first_failed_in_main_order": 41,
+      "note": "assessable only for the classified correlation-type rows (n=361)"
+    },
+    {
+      "criterion_code": "D",
+      "criterion": "Unit of analysis or dependence not usable",
+      "rows_assessable": 361,
+      "rows_failing_regardless_of_order": 153,
+      "rows_failing_ONLY_this_criterion": 15,
+      "first_failed_in_main_order": 20,
+      "note": "as C"
+    },
+    {
+      "criterion_code": "G",
+      "criterion": "Other source-recorded data-integrity problem",
+      "rows_assessable": 361,
+      "rows_failing_regardless_of_order": 6,
+      "rows_failing_ONLY_this_criterion": 0,
+      "first_failed_in_main_order": 0,
+      "note": "as C"
+    },
+    {
+      "criterion_code": "E",
+      "criterion": "Not selected by effect-selection hierarchy (within cohort x construct x lag family)",
+      "rows_assessable": 71,
+      "rows_failing_regardless_of_order": 0,
+      "rows_failing_ONLY_this_criterion": 0,
+      "first_failed_in_main_order": 0,
+      "note": "no row-level removal recorded in data; 71 retained rows retained-but-clustered (see json)"
+    },
+    {
+      "criterion_code": "F",
+      "criterion": "Duplicate / overlapping cohort (linked reports)",
+      "rows_assessable": 2093,
+      "rows_failing_regardless_of_order": 0,
+      "rows_failing_ONLY_this_criterion": 0,
+      "first_failed_in_main_order": 0,
+      "note": "no row-level removal recorded; linked-report members contribute to the retained set as listed in the json"
+    }
+  ],
+  "order_sensitivity": [
+    {
+      "criterion_code": "A",
+      "criterion": "Estimand not a usable exposure-response association",
+      "removed_in_main_order": 1760,
+      "min_over_120_orders": 739,
+      "max_over_120_orders": 1760
+    },
+    {
+      "criterion_code": "B",
+      "criterion": "Outcome not CMJ jump height",
+      "removed_in_main_order": 201,
+      "min_over_120_orders": 41,
+      "max_over_120_orders": 1212
+    },
+    {
+      "criterion_code": "C",
+      "criterion": "Exposure not a preceding quantified load / timing not eligible",
+      "removed_in_main_order": 41,
+      "min_over_120_orders": 29,
+      "max_over_120_orders": 104
+    },
+    {
+      "criterion_code": "D",
+      "criterion": "Unit of analysis or dependence not usable",
+      "removed_in_main_order": 20,
+      "min_over_120_orders": 15,
+      "max_over_120_orders": 153
+    },
+    {
+      "criterion_code": "G",
+      "criterion": "Other source-recorded data-integrity problem",
+      "removed_in_main_order": 0,
+      "min_over_120_orders": 0,
+      "max_over_120_orders": 6
+    }
+  ],
+  "report_level": {
+    "all_included": {
+      "contextual": {
+        "T1 contributes >=1 of the retained primary jump-height effects": 0,
+        "T2 has correlation-type jump-height rows, none retained": 4,
+        "T3 jump-height data only as other estimand (contrast/regression), none usable": 86,
+        "T4 correlation-type rows for non-jump-height outcomes only": 0,
+        "T5 other-estimand data for non-jump-height outcomes only": 24,
+        "T6 no effect row (characterised only)": 34,
+        "All": 148
+      },
+      "primary": {
+        "T1 contributes >=1 of the retained primary jump-height effects": 11,
+        "T2 has correlation-type jump-height rows, none retained": 25,
+        "T3 jump-height data only as other estimand (contrast/regression), none usable": 143,
+        "T4 correlation-type rows for non-jump-height outcomes only": 0,
+        "T5 other-estimand data for non-jump-height outcomes only": 13,
+        "T6 no effect row (characterised only)": 0,
+        "All": 192
+      },
+      "secondary": {
+        "T1 contributes >=1 of the retained primary jump-height effects": 1,
+        "T2 has correlation-type jump-height rows, none retained": 4,
+        "T3 jump-height data only as other estimand (contrast/regression), none usable": 0,
+        "T4 correlation-type rows for non-jump-height outcomes only": 9,
+        "T5 other-estimand data for non-jump-height outcomes only": 25,
+        "T6 no effect row (characterised only)": 0,
+        "All": 39
+      },
+      "All": {
+        "T1 contributes >=1 of the retained primary jump-height effects": 12,
+        "T2 has correlation-type jump-height rows, none retained": 33,
+        "T3 jump-height data only as other estimand (contrast/regression), none usable": 229,
+        "T4 correlation-type rows for non-jump-height outcomes only": 9,
+        "T5 other-estimand data for non-jump-height outcomes only": 62,
+        "T6 no effect row (characterised only)": 34,
+        "All": 379
+      }
+    },
+    "primary_stream": {
+      "T3 jump-height data only as other estimand (contrast/regression), none usable": 143,
+      "T2 has correlation-type jump-height rows, none retained": 25,
+      "T5 other-estimand data for non-jump-height outcomes only": 13,
+      "T1 contributes >=1 of the retained primary jump-height effects": 11
+    }
+  }
+}

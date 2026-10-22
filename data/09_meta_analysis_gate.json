@@ -1,0 +1,45 @@
+{
+  "candidate_file": "not regenerated in v14",
+  "candidate_file_sha256": null,
+  "candidate_row_count": 13,
+  "gate_status": "cohort_count_threshold_met_in_1_stratum_exposure_incompatible_gate_closed",
+  "gate_status_detail": "Recomputed in data_v14 from the corrected primary set (71 effects): count criterion only (>=3 independent cohorts per stratum). Compatibility of exposure construct/outcome/timing/estimand across the cohorts of the candidate stratum S01 was judged (adjudicated 2026-10-19; confirmed by the author 2026-10-22; see gate_candidate_compatibility_decision.md and 08d_gate_candidate_stratum_review.csv): exposure definitions are not compatible, so the gate is closed and nothing is pooled.",
+  "readiness_file": "not regenerated in v14",
+  "readiness_file_sha256": null,
+  "canonical_strata_file": "08_synthesis_strata.csv",
+  "canonical_strata_file_sha256": null,
+  "n_strata_total": 41,
+  "n_strata_with_ge3_independent_cohorts": 1,
+  "effective_independent_cohort_count_corpus_wide": 12,
+  "basis": "Recomputed in data_v14 by code/s4_synthesis.py from 08_classified_correlation_rows.json (poolable_candidate=='yes', 71 rows) with primary cohort tokens (07_cohort_linkage.csv, fall-back ind_<record_id>).",
+  "row_errors": [],
+  "rule": "No downstream pooling unless gate_status is open (>=3 independent cohorts sharing exposure construct/outcome definition/temporal window/estimand/compatible design).",
+  "syntheses": [],
+  "synthesis_count": 0,
+  "sensitivity_variant_check": {
+    "description": "Parallel build in which each report of a possible_overlap_unresolved pair gets its own cohort token (token__record_id).",
+    "n_strata_total_sensitivity": 41,
+    "n_unique_cohort_tokens_sensitivity": 12,
+    "max_cohorts_per_stratum_sensitivity": 3,
+    "n_strata_with_ge3_independent_cohorts_sensitivity": 1,
+    "n_strata_where_cohort_count_or_gate_differs_from_primary": 0
+  },
+  "max_cohorts_per_stratum": 3,
+  "strata_by_cohort_count": {
+    "1": 34,
+    "2": 6,
+    "3": 1
+  },
+  "n_effects_in_primary_set": 71,
+  "n_reports_in_primary_set": 12,
+  "candidate_strata": [
+    {
+      "stratum_id": "S01",
+      "exposure_construct": "accel_decel",
+      "lag_window": "0-<6h",
+      "outcome_class": "jump_height_change",
+      "n_rows": 13,
+      "cohorts": "ind_PMID_36430106;ind_PMID_38028786;ind_PMID_41210085"
+    }
+  ]
+}

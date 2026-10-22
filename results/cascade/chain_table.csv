@@ -1,0 +1,10 @@
+level,stage,n,detail
+reports,Included reports,379,192 primary / 39 secondary / 148 contextual
+reports,Reports with >=1 effect row,345,192 primary / 39 secondary / 114 contextual; 34 without row
+reports,Reports with >=1 correlation-type row in classified file,62,classified file = 361 rows of included reports
+reports,Reports with >=1 correlation-type jump-height row,45,"by stream: {""primary"": 36, ""secondary"": 5, ""contextual"": 4}"
+reports,Reports contributing >=1 of the 71 effects,12,11 primary / 1 secondary
+cohorts,Cohort labels of those 12 reports,12,"12 reports map to 12 cohort labels; linked-pair partners without retained effects: ['PMID_25710257', 'PMID_34708201']"
+strata,Effects,71,53 change / 18 absolute jump height
+strata,Compatibility strata,41,27 strata hold one effect; 1-13 effects per stratum
+strata,Maximum independent cohorts in any stratum,3,"34 strata with 1 cohort(s), 6 strata with 2 cohort(s), 1 strata with 3 cohort(s); strata with >=3 cohorts: 1"

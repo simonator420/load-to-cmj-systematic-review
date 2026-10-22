@@ -1,0 +1,9 @@
+step,criterion,rows_removed,rows_remaining,reports_remaining,cohorts_remaining
+0,Effect rows of the 379 included reports (345 reports with rows),0,2093,345,339
+1,Estimand not a usable exposure-response association,1760,333,52,48
+2,Outcome not CMJ jump height,201,132,36,34
+3,Exposure not a preceding quantified load / timing not eligible,41,91,16,16
+4,Unit of analysis or dependence not usable,20,71,12,12
+5,Other source-recorded data-integrity problem,0,71,12,12
+6,Not selected by effect-selection hierarchy (within cohort x construct x lag family),0,71,12,12
+7,Duplicate / overlapping cohort (linked reports),0,71,12,12

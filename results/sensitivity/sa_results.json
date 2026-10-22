@@ -1,0 +1,2021 @@
+{
+ "status": "POST HOC, not prespecified",
+ "crosscheck": [
+  {
+   "case": "toy_k3",
+   "tau2_mine": 0.04303839760235495,
+   "tau2_direct_REML": 0.0430383986323318,
+   "mu_mine": 0.048590917661762226,
+   "mu_sm": 0.04859091766176221,
+   "se_hk_mine": 0.15724049680049576,
+   "se_hk_statsmodels_WLS": 0.15724049680049576,
+   "ci_mine": [
+    -0.6279603351156683,
+    0.7251421704391928
+   ],
+   "ci_sm": [
+    -0.6279603351156684,
+    0.7251421704391927
+   ],
+   "ok": true
+  },
+  {
+   "case": "toy_k5",
+   "tau2_mine": 0.04735065823587521,
+   "tau2_direct_REML": 0.0473506596958874,
+   "mu_mine": 0.04198972330427348,
+   "mu_sm": 0.04198972330427346,
+   "se_hk_mine": 0.1284019266341549,
+   "se_hk_statsmodels_WLS": 0.1284019266341549,
+   "ci_mine": [
+    -0.3145111773970927,
+    0.39849062400563967
+   ],
+   "ci_sm": [
+    -0.3145111773970927,
+    0.39849062400563967
+   ],
+   "ok": true
+  },
+  {
+   "case": "toy_k4_data_like",
+   "tau2_mine": 0.09638054352066003,
+   "tau2_direct_REML": 0.09638054231792197,
+   "mu_mine": -0.062189983003620185,
+   "mu_sm": -0.06218998300362023,
+   "se_hk_mine": 0.17726245339104987,
+   "se_hk_statsmodels_WLS": 0.17726245339104987,
+   "ci_mine": [
+    -0.6263182228635907,
+    0.5019382568563503
+   ],
+   "ci_sm": [
+    -0.6263182228635907,
+    0.5019382568563503
+   ],
+   "ok": true
+  }
+ ],
+ "primary_coding": {
+  "S1": {
+   "label": "any external x jump height (change|absolute) x 24-72 h [user-requested]",
+   "defensibility": "moderate",
+   "n_rows": 32,
+   "n_reports": 5,
+   "n_cohorts": 5,
+   "cohorts": [
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ishida_etsu_wsoc"
+   ],
+   "gate_met": true,
+   "selected": [
+    {
+     "cohort": "ind_PMID_29339989",
+     "record_id": "PMID_29339989",
+     "row_id": 89,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 40.0,
+     "r": 0.04,
+     "n": 10.0,
+     "tier": 4,
+     "dependence": "unclear",
+     "z_mean_all_rows": 0.16447711890552016,
+     "r_min_tier": -0.06,
+     "r_max_tier": 0.29
+    },
+    {
+     "cohort": "ind_PMID_33348584",
+     "record_id": "PMID_33348584",
+     "row_id": 179,
+     "construct": "sprint_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 24.0,
+     "r": -0.31,
+     "n": 41.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3205454093019461,
+     "r_min_tier": -0.31,
+     "r_max_tier": -0.31
+    },
+    {
+     "cohort": "ishida_etsu_wsoc",
+     "record_id": "PMID_33555825",
+     "row_id": 1799,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 38.0,
+     "r": -0.22,
+     "n": 12.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.21904783395679858,
+     "r_min_tier": -0.3,
+     "r_max_tier": -0.15
+    }
+   ],
+   "excluded_from_pooling": [
+    {
+     "cohort": "ind_PMID_35077336",
+     "record_id": "PMID_35077336",
+     "row_id": 2220,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.159,
+     "n": 18.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.10337894945910493,
+     "r_min_tier": -0.186,
+     "r_max_tier": -0.031,
+     "excluded_reason": "only n available is pooled observations (n=18); not an independent athlete-level n"
+    },
+    {
+     "cohort": "ind_SCOPUS_2-s2.0-105015532135",
+     "record_id": "SCOPUS_2-s2.0-105015532135",
+     "row_id": 567,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 48.0,
+     "r": -0.182,
+     "n": 7.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.274325906635747,
+     "r_min_tier": -0.317,
+     "r_max_tier": -0.182,
+     "excluded_reason": "only n available is pooled observations (n=7); not an independent athlete-level n"
+    }
+   ],
+   "k_pooled": 3,
+   "pooled": {
+    "k": 3,
+    "tau2": 0.0,
+    "mu_z": -0.2576570566261679,
+    "se_hk": 0.085037003852707,
+    "ci_z": [
+     -0.6235417533781991,
+     0.10822764012586322
+    ],
+    "Q": 0.7809795386184929,
+    "I2": 0.0,
+    "pi_z": [
+     -1.9867525106035817,
+     1.4714383973512462
+    ],
+    "r": -0.2521027961191029,
+    "ci_r": [
+     -0.5535891879194597,
+     0.10780704582685552
+    ],
+    "pi_r": [
+     -0.9630795826556038,
+     0.8998514881047887
+    ]
+   },
+   "loo": [
+    {
+     "left_out": "ind_PMID_29339989",
+     "k": 2,
+     "tau2": 0.0,
+     "mu_z": -0.30199213903554134,
+     "se_hk": 0.03812334634369779,
+     "ci_z": [
+      -0.7863951829164754,
+      0.18241090484539269
+     ],
+     "Q": 0.06830930821275216,
+     "I2": 0.0,
+     "pi_z": null,
+     "r": -0.2931346327232647,
+     "ci_r": [
+      -0.6563620664391139,
+      0.18041431007846004
+     ],
+     "pi_r": null
+    },
+    {
+     "left_out": "ind_PMID_33348584",
+     "k": 2,
+     "tau2": 0.0,
+     "mu_z": -0.10829721902119464,
+     "se_hk": 0.1308046861980614,
+     "ci_z": [
+      -1.7703283423385163,
+      1.5537339042961271
+     ],
+     "Q": 0.273757854901973,
+     "I2": 0.0,
+     "pi_z": null,
+     "r": -0.10787581553531843,
+     "ci_r": [
+      -0.943645399644531,
+      0.9143994719308068
+     ],
+     "pi_r": null
+    },
+    {
+     "left_out": "ishida_etsu_wsoc",
+     "k": 2,
+     "tau2": 0.0,
+     "mu_z": -0.264457246147035,
+     "se_hk": 0.13068146537696335,
+     "ci_z": [
+      -1.9249227004836935,
+      1.3960082081896237
+     ],
+     "Q": 0.7684940426881712,
+     "I2": 0.0,
+     "pi_z": null,
+     "r": -0.25845979792669527,
+     "ci_r": [
+      -0.9583210021772423,
+      0.884485757005434
+     ],
+     "pi_r": null
+    }
+   ],
+   "alt_mean_of_rows": {
+    "k": 3,
+    "tau2": 0.0,
+    "mu_z": -0.24075585605086106,
+    "se_hk": 0.11367838236533047,
+    "ci_z": [
+     -0.729874458242492,
+     0.24836274614076984
+    ],
+    "Q": 1.3956596586574141,
+    "I2": 0.0,
+    "pi_z": [
+     -1.969851310028275,
+     1.4883395979265528
+    ],
+    "r": -0.2362095599421769,
+    "ci_r": [
+     -0.6229885384266783,
+     0.24337900344646096
+    ],
+    "pi_r": [
+     -0.961834473882449,
+     0.9030187626044446
+    ]
+   },
+   "alt_min_pick": {
+    "k": 3,
+    "tau2": 0.0,
+    "mu_z": -0.28494272375461444,
+    "se_hk": 0.06143127443562033,
+    "ci_z": [
+     -0.5492601643937491,
+     -0.020625283115479787
+    ],
+    "Q": 0.4075705597087261,
+    "I2": 0.0,
+    "pi_z": [
+     -2.0140381777320284,
+     1.4441527302227994
+    ],
+    "r": -0.27747348467856436,
+    "ci_r": [
+     -0.4999655142519687,
+     -0.020622358932077322
+    ],
+    "pi_r": [
+     -0.9650060823768546,
+     0.8945305941603323
+    ]
+   },
+   "alt_max_pick": {
+    "k": 3,
+    "tau2": 0.01422598096038275,
+    "mu_z": -0.18486654804322258,
+    "se_hk": 0.15813069090088153,
+    "ci_z": [
+     -0.8652479968966373,
+     0.4955149008101922
+    ],
+    "Q": 2.3058001998907063,
+    "I2": 13.26221586350808,
+    "pi_z": [
+     -2.7216606330628217,
+     2.351927536976376
+    ],
+    "r": -0.18278896692701796,
+    "ci_r": [
+     -0.6989517046044237,
+     0.4585825589163594
+    ],
+    "pi_r": [
+     -0.9913870625702057,
+     0.98204214000065
+    ]
+   }
+  },
+  "S1c": {
+   "label": "any external x jump_height_change x 24-72 h",
+   "defensibility": "strong",
+   "n_rows": 17,
+   "n_reports": 3,
+   "n_cohorts": 3,
+   "cohorts": [
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ishida_etsu_wsoc"
+   ],
+   "gate_met": true,
+   "selected": [
+    {
+     "cohort": "ind_PMID_33348584",
+     "record_id": "PMID_33348584",
+     "row_id": 179,
+     "construct": "sprint_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 24.0,
+     "r": -0.31,
+     "n": 41.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3205454093019461,
+     "r_min_tier": -0.31,
+     "r_max_tier": -0.31
+    },
+    {
+     "cohort": "ishida_etsu_wsoc",
+     "record_id": "PMID_33555825",
+     "row_id": 1799,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 38.0,
+     "r": -0.22,
+     "n": 12.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.21904783395679858,
+     "r_min_tier": -0.3,
+     "r_max_tier": -0.15
+    }
+   ],
+   "excluded_from_pooling": [
+    {
+     "cohort": "ind_PMID_35077336",
+     "record_id": "PMID_35077336",
+     "row_id": 2220,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.159,
+     "n": 18.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.10337894945910493,
+     "r_min_tier": -0.186,
+     "r_max_tier": -0.031,
+     "excluded_reason": "only n available is pooled observations (n=18); not an independent athlete-level n"
+    }
+   ],
+   "k_pooled": 2,
+   "pooled": null,
+   "note": "gate met on cohort count but <3 poolable cohorts after exclusion"
+  },
+  "S2": {
+   "label": "any load (ext+int) x jump height x 24-72 h",
+   "defensibility": "weak",
+   "n_rows": 38,
+   "n_reports": 6,
+   "n_cohorts": 6,
+   "cohorts": [
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ind_SD_196188164",
+    "ishida_etsu_wsoc"
+   ],
+   "gate_met": true,
+   "selected": [
+    {
+     "cohort": "ind_PMID_29339989",
+     "record_id": "PMID_29339989",
+     "row_id": 89,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 40.0,
+     "r": 0.04,
+     "n": 10.0,
+     "tier": 4,
+     "dependence": "unclear",
+     "z_mean_all_rows": 0.16447711890552016,
+     "r_min_tier": -0.06,
+     "r_max_tier": 0.29
+    },
+    {
+     "cohort": "ind_PMID_33348584",
+     "record_id": "PMID_33348584",
+     "row_id": 179,
+     "construct": "sprint_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 24.0,
+     "r": -0.31,
+     "n": 41.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3205454093019461,
+     "r_min_tier": -0.31,
+     "r_max_tier": -0.31
+    },
+    {
+     "cohort": "ishida_etsu_wsoc",
+     "record_id": "PMID_33555825",
+     "row_id": 1799,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 38.0,
+     "r": -0.22,
+     "n": 12.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.2085013586364828,
+     "r_min_tier": -0.3,
+     "r_max_tier": -0.15
+    }
+   ],
+   "excluded_from_pooling": [
+    {
+     "cohort": "ind_PMID_35077336",
+     "record_id": "PMID_35077336",
+     "row_id": 2220,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.159,
+     "n": 18.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.10337894945910493,
+     "r_min_tier": -0.186,
+     "r_max_tier": -0.031,
+     "excluded_reason": "only n available is pooled observations (n=18); not an independent athlete-level n"
+    },
+    {
+     "cohort": "ind_SCOPUS_2-s2.0-105015532135",
+     "record_id": "SCOPUS_2-s2.0-105015532135",
+     "row_id": 567,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 48.0,
+     "r": -0.182,
+     "n": 7.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.274325906635747,
+     "r_min_tier": -0.317,
+     "r_max_tier": -0.182,
+     "excluded_reason": "only n available is pooled observations (n=7); not an independent athlete-level n"
+    },
+    {
+     "cohort": "ind_SD_196188164",
+     "record_id": "SD_196188164",
+     "row_id": 2230,
+     "construct": "ATL_ACWR",
+     "domain": "internal_load",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.534,
+     "n": 75.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.7601162637700647,
+     "r_min_tier": -0.766,
+     "r_max_tier": -0.523,
+     "excluded_reason": "only n available is pooled observations (n=75); not an independent athlete-level n"
+    }
+   ],
+   "k_pooled": 3,
+   "pooled": {
+    "k": 3,
+    "tau2": 0.0,
+    "mu_z": -0.2576570566261679,
+    "se_hk": 0.085037003852707,
+    "ci_z": [
+     -0.6235417533781991,
+     0.10822764012586322
+    ],
+    "Q": 0.7809795386184929,
+    "I2": 0.0,
+    "pi_z": [
+     -1.9867525106035817,
+     1.4714383973512462
+    ],
+    "r": -0.2521027961191029,
+    "ci_r": [
+     -0.5535891879194597,
+     0.10780704582685552
+    ],
+    "pi_r": [
+     -0.9630795826556038,
+     0.8998514881047887
+    ]
+   },
+   "loo": [
+    {
+     "left_out": "ind_PMID_29339989",
+     "k": 2,
+     "tau2": 0.0,
+     "mu_z": -0.30199213903554134,
+     "se_hk": 0.03812334634369779,
+     "ci_z": [
+      -0.7863951829164754,
+      0.18241090484539269
+     ],
+     "Q": 0.06830930821275216,
+     "I2": 0.0,
+     "pi_z": null,
+     "r": -0.2931346327232647,
+     "ci_r": [
+      -0.6563620664391139,
+      0.18041431007846004
+     ],
+     "pi_r": null
+    },
+    {
+     "left_out": "ind_PMID_33348584",
+     "k": 2,
+     "tau2": 0.0,
+     "mu_z": -0.10829721902119464,
+     "se_hk": 0.1308046861980614,
+     "ci_z": [
+      -1.7703283423385163,
+      1.5537339042961271
+     ],
+     "Q": 0.273757854901973,
+     "I2": 0.0,
+     "pi_z": null,
+     "r": -0.10787581553531843,
+     "ci_r": [
+      -0.943645399644531,
+      0.9143994719308068
+     ],
+     "pi_r": null
+    },
+    {
+     "left_out": "ishida_etsu_wsoc",
+     "k": 2,
+     "tau2": 0.0,
+     "mu_z": -0.264457246147035,
+     "se_hk": 0.13068146537696335,
+     "ci_z": [
+      -1.9249227004836935,
+      1.3960082081896237
+     ],
+     "Q": 0.7684940426881712,
+     "I2": 0.0,
+     "pi_z": null,
+     "r": -0.25845979792669527,
+     "ci_r": [
+      -0.9583210021772423,
+      0.884485757005434
+     ],
+     "pi_r": null
+    }
+   ],
+   "alt_mean_of_rows": {
+    "k": 3,
+    "tau2": 0.0,
+    "mu_z": -0.23899811016414177,
+    "se_hk": 0.11388000693821819,
+    "ci_z": [
+     -0.7289842328746818,
+     0.25098801254639835
+    ],
+    "Q": 1.4006148458668515,
+    "I2": 0.0,
+    "pi_z": [
+     -1.9680935641415558,
+     1.490097343813272
+    ],
+    "r": -0.23454919974467292,
+    "ci_r": [
+     -0.6224435205042789,
+     0.24584718387985507
+    ],
+    "pi_r": [
+     -0.9617026408859131,
+     0.903342652676119
+    ]
+   },
+   "alt_min_pick": {
+    "k": 3,
+    "tau2": 0.0,
+    "mu_z": -0.28494272375461444,
+    "se_hk": 0.06143127443562033,
+    "ci_z": [
+     -0.5492601643937491,
+     -0.020625283115479787
+    ],
+    "Q": 0.4075705597087261,
+    "I2": 0.0,
+    "pi_z": [
+     -2.0140381777320284,
+     1.4441527302227994
+    ],
+    "r": -0.27747348467856436,
+    "ci_r": [
+     -0.4999655142519687,
+     -0.020622358932077322
+    ],
+    "pi_r": [
+     -0.9650060823768546,
+     0.8945305941603323
+    ]
+   },
+   "alt_max_pick": {
+    "k": 3,
+    "tau2": 0.01422598096038275,
+    "mu_z": -0.18486654804322258,
+    "se_hk": 0.15813069090088153,
+    "ci_z": [
+     -0.8652479968966373,
+     0.4955149008101922
+    ],
+    "Q": 2.3058001998907063,
+    "I2": 13.26221586350808,
+    "pi_z": [
+     -2.7216606330628217,
+     2.351927536976376
+    ],
+    "r": -0.18278896692701796,
+    "ci_r": [
+     -0.6989517046044237,
+     0.4585825589163594
+    ],
+    "pi_r": [
+     -0.9913870625702057,
+     0.98204214000065
+    ]
+   }
+  },
+  "S3": {
+   "label": "any external x jump height x 0-<30 h",
+   "defensibility": "weak",
+   "n_rows": 26,
+   "n_reports": 5,
+   "n_cohorts": 5,
+   "cohorts": [
+    "ind_PMID_33348584",
+    "ind_PMID_36430106",
+    "ind_PMID_38028786",
+    "ind_PMID_41210085",
+    "ishida_etsu_wsoc"
+   ],
+   "gate_met": true,
+   "selected": [
+    {
+     "cohort": "ind_PMID_33348584",
+     "record_id": "PMID_33348584",
+     "row_id": 179,
+     "construct": "sprint_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 24.0,
+     "r": -0.31,
+     "n": 41.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3373189691320945,
+     "r_min_tier": -0.34,
+     "r_max_tier": -0.31
+    },
+    {
+     "cohort": "ind_PMID_36430106",
+     "record_id": "PMID_36430106",
+     "row_id": 265,
+     "construct": "accel_decel",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": 0.689,
+     "n": 10.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": 0.03968028272612728,
+     "r_min_tier": -0.645,
+     "r_max_tier": 0.689
+    },
+    {
+     "cohort": "ind_PMID_38028786",
+     "record_id": "PMID_38028786",
+     "row_id": 310,
+     "construct": "total_distance",
+     "domain": "external_training",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": 0.379,
+     "n": 16.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": 0.3689570752108333,
+     "r_min_tier": -0.376,
+     "r_max_tier": 0.66
+    },
+    {
+     "cohort": "ind_PMID_41210085",
+     "record_id": "PMID_41210085",
+     "row_id": 1017,
+     "construct": "accel_decel",
+     "domain": "external_training",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.25,
+     "r": -0.178,
+     "n": 39.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.12345915441691886,
+     "r_min_tier": -0.296,
+     "r_max_tier": 0.009
+    },
+    {
+     "cohort": "ishida_etsu_wsoc",
+     "record_id": "PMID_33555825",
+     "row_id": 1797,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 12.0,
+     "r": -0.46,
+     "n": 12.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.47310697578475697,
+     "r_min_tier": -0.54,
+     "r_max_tier": -0.35
+    }
+   ],
+   "excluded_from_pooling": [],
+   "k_pooled": 5,
+   "pooled": {
+    "k": 5,
+    "tau2": 0.16866845533666314,
+    "mu_z": 0.00012861442865956348,
+    "se_hk": 0.23158884786887135,
+    "ci_z": [
+     -0.642865108655266,
+     0.6431223375125851
+    ],
+    "Q": 12.970718667513099,
+    "I2": 69.16130784627582,
+    "pi_z": [
+     -1.47934190137982,
+     1.4795991302371392
+    ],
+    "r": 0.00012861442795039762,
+    "ci_r": [
+     -0.5668472147496659,
+     0.5670217664648076
+    ],
+    "pi_r": [
+     -0.9013446162847304,
+     0.901392855543729
+    ]
+   },
+   "loo": [
+    {
+     "left_out": "ind_PMID_33348584",
+     "k": 4,
+     "tau2": 0.2192416655025069,
+     "mu_z": 0.10970803357722406,
+     "se_hk": 0.28565919463437384,
+     "ci_z": [
+      -0.7993870149574172,
+      1.0188030821118652
+     ],
+     "Q": 10.46989909821731,
+     "I2": 71.3464287300457,
+     "pi_z": [
+      -2.2269207984554225,
+      2.4463368656098705
+     ],
+     "r": 0.10926999906243202,
+     "ci_r": [
+      -0.6636939383070892,
+      0.7693785752431564
+     ],
+     "pi_r": [
+      -0.9769999997651281,
+      0.9851090241119185
+     ]
+    },
+    {
+     "left_out": "ind_PMID_36430106",
+     "k": 4,
+     "tau2": 0.045267776838922885,
+     "mu_z": -0.16233244400269234,
+     "se_hk": 0.16970046396726984,
+     "ci_z": [
+      -0.7023950585603554,
+      0.3777301705549708
+     ],
+     "Q": 6.008643820592793,
+     "I2": 50.071928215841055,
+     "pi_z": [
+      -1.2920791628542234,
+      0.9674142748488388
+     ],
+     "r": -0.16092139702546976,
+     "ci_r": [
+      -0.6058858153485059,
+      0.36073462860150773
+     ],
+     "pi_r": [
+      -0.8596701025418901,
+      0.7475658095293894
+     ]
+    },
+    {
+     "left_out": "ind_PMID_38028786",
+     "k": 4,
+     "tau2": 0.17300426464670568,
+     "mu_z": -0.09447283112857242,
+     "se_hk": 0.27058644952806493,
+     "ci_z": [
+      -0.9555996776891493,
+      0.7666540154320045
+     ],
+     "Q": 9.014875046243132,
+     "I2": 66.72166852439932,
+     "pi_z": [
+      -2.171120065571996,
+      1.9821744033148512
+     ],
+     "r": -0.09419277059524059,
+     "ci_r": [
+      -0.7423076584740098,
+      0.6449796062985559
+     ],
+     "pi_r": [
+      -0.9743193230303691,
+      0.9627463047679485
+     ]
+    },
+    {
+     "left_out": "ind_PMID_41210085",
+     "k": 4,
+     "tau2": 0.26800709407632684,
+     "mu_z": 0.0716711567491884,
+     "se_hk": 0.303743315227561,
+     "ci_z": [
+      -0.8949756345515562,
+      1.038317948049933
+     ],
+     "Q": 12.749921502060559,
+     "I2": 76.47044337084617,
+     "pi_z": [
+      -2.495431969715925,
+      2.638774283214302
+     ],
+     "r": 0.071548689326417,
+     "ci_r": [
+      -0.713842603731567,
+      0.7772229712048787
+     ],
+     "pi_r": [
+      -0.9864922749589954,
+      0.9898419961719565
+     ]
+    },
+    {
+     "left_out": "ishida_etsu_wsoc",
+     "k": 4,
+     "tau2": 0.187984708471086,
+     "mu_z": 0.10767410417951202,
+     "se_hk": 0.2576910341507688,
+     "ci_z": [
+      -0.712413775358483,
+      0.9277619837175072
+     ],
+     "Q": 11.542503460644415,
+     "I2": 74.00910460864172,
+     "pi_z": [
+      -2.0440913451257883,
+      2.259439553484812
+     ],
+     "r": 0.10725991067961421,
+     "ci_r": [
+      -0.6121882173458665,
+      0.7295487528886059
+     ],
+     "pi_r": [
+      -0.9670138048115925,
+      0.9784326390061678
+     ]
+    }
+   ],
+   "alt_mean_of_rows": {
+    "k": 5,
+    "tau2": 0.026047863282941494,
+    "mu_z": -0.13806988959190136,
+    "se_hk": 0.13263446699920917,
+    "ci_z": [
+     -0.5063222062723747,
+     0.2301824270885719
+    ],
+    "Q": 6.041626034555708,
+    "I2": 33.792658183052296,
+    "pi_z": [
+     -0.794533220363937,
+     0.5183934411801343
+    ],
+    "r": -0.13719917283011562,
+    "ci_r": [
+     -0.46707469206542734,
+     0.22620145224380392
+    ],
+    "pi_r": [
+     -0.660969434551526,
+     0.4764591144729598
+    ]
+   },
+   "alt_min_pick": {
+    "k": 5,
+    "tau2": 0.0,
+    "mu_z": -0.392082691113011,
+    "se_hk": 0.06450442947134648,
+    "ci_z": [
+     -0.5711756985823075,
+     -0.2129896836437144
+    ],
+    "Q": 1.7142584256266518,
+    "I2": 0.0,
+    "pi_z": [
+     -0.7056584431912474,
+     -0.07850693903477457
+    ],
+    "r": -0.3731543081640838,
+    "ci_r": [
+     -0.5162221934624848,
+     -0.20982634179066334
+    ],
+    "pi_r": [
+     -0.6079471362038719,
+     -0.07834604736960328
+    ]
+   },
+   "alt_max_pick": {
+    "k": 5,
+    "tau2": 0.24458712218952117,
+    "mu_z": 0.15580682499070234,
+    "se_hk": 0.2564092147915552,
+    "ci_z": [
+     -0.5560992843449222,
+     0.8677129343263268
+    ],
+    "Q": 18.27973553505285,
+    "I2": 78.11784534666992,
+    "pi_z": [
+     -1.609279329462592,
+     1.9208929794439966
+    ],
+    "r": 0.1545581716851811,
+    "ci_r": [
+     -0.5050775307160102,
+     0.7002102666697805
+    ],
+    "pi_r": [
+     -0.9230534606231314,
+     0.9579908195926319
+    ]
+   }
+  },
+  "S4": {
+   "label": "any external x jump height x all known lags <=168 h",
+   "defensibility": "weak",
+   "n_rows": 57,
+   "n_reports": 8,
+   "n_cohorts": 8,
+   "cohorts": [
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_PMID_36430106",
+    "ind_PMID_38028786",
+    "ind_PMID_41210085",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ishida_etsu_wsoc"
+   ],
+   "gate_met": true,
+   "selected": [
+    {
+     "cohort": "ind_PMID_29339989",
+     "record_id": "PMID_29339989",
+     "row_id": 90,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 64.0,
+     "r": -0.06,
+     "n": 10.0,
+     "tier": 4,
+     "dependence": "unclear",
+     "z_mean_all_rows": 0.16447711890552016,
+     "r_min_tier": -0.06,
+     "r_max_tier": 0.29
+    },
+    {
+     "cohort": "ind_PMID_33348584",
+     "record_id": "PMID_33348584",
+     "row_id": 179,
+     "construct": "sprint_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 24.0,
+     "r": -0.31,
+     "n": 41.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3373189691320945,
+     "r_min_tier": -0.34,
+     "r_max_tier": -0.31
+    },
+    {
+     "cohort": "ind_PMID_36430106",
+     "record_id": "PMID_36430106",
+     "row_id": 265,
+     "construct": "accel_decel",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": 0.689,
+     "n": 10.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": 0.03968028272612728,
+     "r_min_tier": -0.645,
+     "r_max_tier": 0.689
+    },
+    {
+     "cohort": "ind_PMID_38028786",
+     "record_id": "PMID_38028786",
+     "row_id": 310,
+     "construct": "total_distance",
+     "domain": "external_training",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": 0.379,
+     "n": 16.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": 0.3689570752108333,
+     "r_min_tier": -0.376,
+     "r_max_tier": 0.66
+    },
+    {
+     "cohort": "ind_PMID_41210085",
+     "record_id": "PMID_41210085",
+     "row_id": 1017,
+     "construct": "accel_decel",
+     "domain": "external_training",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.25,
+     "r": -0.178,
+     "n": 39.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.12345915441691886,
+     "r_min_tier": -0.296,
+     "r_max_tier": 0.009
+    },
+    {
+     "cohort": "ishida_etsu_wsoc",
+     "record_id": "PMID_33555825",
+     "row_id": 1799,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 38.0,
+     "r": -0.22,
+     "n": 12.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.34607740487077776,
+     "r_min_tier": -0.54,
+     "r_max_tier": -0.15
+    }
+   ],
+   "excluded_from_pooling": [
+    {
+     "cohort": "ind_PMID_35077336",
+     "record_id": "PMID_35077336",
+     "row_id": 2220,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.159,
+     "n": 18.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.10337894945910493,
+     "r_min_tier": -0.186,
+     "r_max_tier": -0.031,
+     "excluded_reason": "only n available is pooled observations (n=18); not an independent athlete-level n"
+    },
+    {
+     "cohort": "ind_SCOPUS_2-s2.0-105015532135",
+     "record_id": "SCOPUS_2-s2.0-105015532135",
+     "row_id": 567,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 48.0,
+     "r": -0.182,
+     "n": 7.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.274325906635747,
+     "r_min_tier": -0.317,
+     "r_max_tier": -0.182,
+     "excluded_reason": "only n available is pooled observations (n=7); not an independent athlete-level n"
+    }
+   ],
+   "k_pooled": 6,
+   "pooled": {
+    "k": 6,
+    "tau2": 0.09274800110581993,
+    "mu_z": 0.01125154052801796,
+    "se_hk": 0.17265938295640343,
+    "ci_z": [
+     -0.4325835330518869,
+     0.45508661410792284
+    ],
+    "Q": 11.718299621065121,
+    "I2": 57.33169349065056,
+    "pi_z": [
+     -0.9526922302578784,
+     0.9751953113139142
+    ],
+    "r": 0.011251065747685507,
+    "ci_r": [
+     -0.4074781417252524,
+     0.42607121859065133
+    ],
+    "pi_r": [
+     -0.740999454939245,
+     0.7509784579739783
+    ]
+   },
+   "loo": [
+    {
+     "left_out": "ind_PMID_29339989",
+     "k": 5,
+     "tau2": 0.13076157844346323,
+     "mu_z": 0.03609960440200979,
+     "se_hk": 0.20894530857450783,
+     "ci_z": [
+      -0.5440255748437262,
+      0.6162247836477457
+     ],
+     "Q": 11.711261092415922,
+     "I2": 65.84483969373414,
+     "pi_z": [
+      -1.2772975067020789,
+      1.3494967155060986
+     ],
+     "r": 0.036083931127215675,
+     "ci_r": [
+      -0.49602912555145595,
+      0.5484940365002233
+     ],
+     "pi_r": [
+      -0.855763211751604,
+      0.8739344449504799
+     ]
+    },
+    {
+     "left_out": "ind_PMID_33348584",
+     "k": 5,
+     "tau2": 0.093000272365293,
+     "mu_z": 0.1123491061074289,
+     "se_hk": 0.194127730510229,
+     "ci_z": [
+      -0.4266358810508538,
+      0.6513340932657116
+     ],
+     "Q": 8.652790438535334,
+     "I2": 53.77213826668055,
+     "pi_z": [
+      -1.0320326191027096,
+      1.2567308313175674
+     ],
+     "r": 0.11187877843112497,
+     "ci_r": [
+      -0.4025060371033761,
+      0.5725673839750368
+     ],
+     "pi_r": [
+      -0.7747222725414328,
+      0.8501603215774591
+     ]
+    },
+    {
+     "left_out": "ind_PMID_36430106",
+     "k": 5,
+     "tau2": 0.017492891429435217,
+     "mu_z": -0.13205056520347958,
+     "se_hk": 0.11910663293288597,
+     "ci_z": [
+      -0.46274359320658176,
+      0.1986424627996226
+     ],
+     "Q": 5.157562205699321,
+     "I2": 22.443979530099835,
+     "pi_z": [
+      -0.7002518180024716,
+      0.43615068759551245
+     ],
+     "r": -0.13128834382563564,
+     "ci_r": [
+      -0.43231767447216246,
+      0.1960703197585425
+     ],
+     "pi_r": [
+      -0.6045275916471414,
+      0.41044868111750304
+     ]
+    },
+    {
+     "left_out": "ind_PMID_38028786",
+     "k": 5,
+     "tau2": 0.06600656549364708,
+     "mu_z": -0.0787143617764089,
+     "se_hk": 0.18372588485838678,
+     "ci_z": [
+      -0.5888191954896113,
+      0.4313904719367935
+     ],
+     "Q": 8.183768910186997,
+     "I2": 51.12276453675424,
+     "pi_z": [
+      -1.0504954737079395,
+      0.8930667501551217
+     ],
+     "r": -0.07855219357606892,
+     "ci_r": [
+      -0.5290458290397431,
+      0.40648269114940827
+     ],
+     "pi_r": [
+      -0.7819989126871351,
+      0.7129051556993884
+     ]
+    },
+    {
+     "left_out": "ind_PMID_41210085",
+     "k": 5,
+     "tau2": 0.13860193152289588,
+     "mu_z": 0.08269862084861038,
+     "se_hk": 0.21326157894007583,
+     "ci_z": [
+      -0.5094104461263171,
+      0.6748076878235378
+     ],
+     "Q": 11.292892004230582,
+     "I2": 64.57948948328288,
+     "pi_z": [
+      -1.2840658745392568,
+      1.4494631162364777
+     ],
+     "r": 0.08251060816859947,
+     "ci_r": [
+      -0.4694857198930161,
+      0.5881334794213811
+     ],
+     "pi_r": [
+      -0.857564435793481,
+      0.895586662455983
+     ]
+    },
+    {
+     "left_out": "ishida_etsu_wsoc",
+     "k": 5,
+     "tau2": 0.12861056823472905,
+     "mu_z": 0.06445254762502166,
+     "se_hk": 0.20436655390406835,
+     "ci_z": [
+      -0.5029599706280711,
+      0.6318650658781143
+     ],
+     "Q": 11.545173558287493,
+     "I2": 65.35348750016259,
+     "pi_z": [
+      -1.241825089096264,
+      1.3707301843463076
+     ],
+     "r": 0.06436344756895392,
+     "ci_r": [
+      -0.4644418328459805,
+      0.5593351216369284
+     ],
+     "pi_r": [
+      -0.8459753174382569,
+      0.8788584956722978
+     ]
+    }
+   ],
+   "alt_mean_of_rows": {
+    "k": 6,
+    "tau2": 0.019313737088212116,
+    "mu_z": -0.10300203095904348,
+    "se_hk": 0.11119452732376287,
+    "ci_z": [
+     -0.38883666311967413,
+     0.18283260120158717
+    ],
+    "Q": 6.0998427323975815,
+    "I2": 18.030673586977567,
+    "pi_z": [
+     -0.6066911036248671,
+     0.40068704170678016
+    ],
+    "r": -0.10263930632009025,
+    "ci_r": [
+     -0.37035689194032784,
+     0.1808222494433991
+    ],
+    "pi_r": [
+     -0.5417936889598984,
+     0.38053666827948945
+    ]
+   },
+   "alt_min_pick": {
+    "k": 6,
+    "tau2": 0.0,
+    "mu_z": -0.37095474796443045,
+    "se_hk": 0.06656196697254839,
+    "ci_z": [
+     -0.5420577312082876,
+     -0.1998517647205733
+    ],
+    "Q": 2.4367724959900423,
+    "I2": 0.0,
+    "pi_z": [
+     -0.6356784018544448,
+     -0.10623109407441605
+    ],
+    "r": -0.3548265384453613,
+    "ci_r": [
+     -0.494544012079725,
+     -0.19723285558259798
+    ],
+    "pi_r": [
+     -0.5619498437181304,
+     -0.10583328213692554
+    ]
+   },
+   "alt_max_pick": {
+    "k": 6,
+    "tau2": 0.16581813960699898,
+    "mu_z": 0.19554943896814866,
+    "se_hk": 0.1991616566976249,
+    "ci_z": [
+     -0.3164118980940013,
+     0.7075107760302987
+    ],
+    "Q": 17.682137235255272,
+    "I2": 71.72287527533254,
+    "pi_z": [
+     -1.0661349951090524,
+     1.4572338730453498
+    ],
+    "r": 0.19309440755365168,
+    "ci_r": [
+     -0.30625894678307886,
+     0.6091135325067429
+    ],
+    "pi_r": [
+     -0.7880006271770253,
+     0.8971140255925192
+    ]
+   }
+  },
+  "S5": {
+   "label": "any load x jump height x all known lags <=168 h",
+   "defensibility": "weak",
+   "n_rows": 68,
+   "n_reports": 11,
+   "n_cohorts": 11,
+   "cohorts": [
+    "ind_PMID_23443218",
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_PMID_35627606",
+    "ind_PMID_36430106",
+    "ind_PMID_38028786",
+    "ind_PMID_41210085",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ind_SD_196188164",
+    "ishida_etsu_wsoc"
+   ],
+   "gate_met": true,
+   "selected": [
+    {
+     "cohort": "ind_PMID_23443218",
+     "record_id": "PMID_23443218",
+     "row_id": 1260,
+     "construct": "dehydration_body_mass_loss",
+     "domain": "internal_load",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": -0.6,
+     "n": 19.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.6931471805599453,
+     "r_min_tier": -0.6,
+     "r_max_tier": -0.6
+    },
+    {
+     "cohort": "ind_PMID_29339989",
+     "record_id": "PMID_29339989",
+     "row_id": 90,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 64.0,
+     "r": -0.06,
+     "n": 10.0,
+     "tier": 4,
+     "dependence": "unclear",
+     "z_mean_all_rows": 0.16447711890552016,
+     "r_min_tier": -0.06,
+     "r_max_tier": 0.29
+    },
+    {
+     "cohort": "ind_PMID_33348584",
+     "record_id": "PMID_33348584",
+     "row_id": 179,
+     "construct": "sprint_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 24.0,
+     "r": -0.31,
+     "n": 41.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3373189691320945,
+     "r_min_tier": -0.34,
+     "r_max_tier": -0.31
+    },
+    {
+     "cohort": "ind_PMID_35627606",
+     "record_id": "PMID_35627606",
+     "row_id": 873,
+     "construct": "RPE",
+     "domain": "internal_load",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": -0.75,
+     "n": 56.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.96171722756209,
+     "r_min_tier": -0.75,
+     "r_max_tier": -0.74
+    },
+    {
+     "cohort": "ind_PMID_36430106",
+     "record_id": "PMID_36430106",
+     "row_id": 265,
+     "construct": "accel_decel",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": 0.689,
+     "n": 10.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": 0.03968028272612728,
+     "r_min_tier": -0.645,
+     "r_max_tier": 0.689
+    },
+    {
+     "cohort": "ind_PMID_38028786",
+     "record_id": "PMID_38028786",
+     "row_id": 310,
+     "construct": "total_distance",
+     "domain": "external_training",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.0,
+     "r": 0.379,
+     "n": 16.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": 0.3689570752108333,
+     "r_min_tier": -0.376,
+     "r_max_tier": 0.66
+    },
+    {
+     "cohort": "ind_PMID_41210085",
+     "record_id": "PMID_41210085",
+     "row_id": 1017,
+     "construct": "accel_decel",
+     "domain": "external_training",
+     "outcome": "jump_height_change",
+     "lag_hours": 0.25,
+     "r": -0.178,
+     "n": 39.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.12345915441691886,
+     "r_min_tier": -0.296,
+     "r_max_tier": 0.009
+    },
+    {
+     "cohort": "ishida_etsu_wsoc",
+     "record_id": "PMID_33555825",
+     "row_id": 1799,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 38.0,
+     "r": -0.22,
+     "n": 12.0,
+     "tier": 3,
+     "dependence": "independent_athletes",
+     "z_mean_all_rows": -0.3464305724988922,
+     "r_min_tier": -0.54,
+     "r_max_tier": -0.15
+    }
+   ],
+   "excluded_from_pooling": [
+    {
+     "cohort": "ind_PMID_35077336",
+     "record_id": "PMID_35077336",
+     "row_id": 2220,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.159,
+     "n": 18.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.10337894945910493,
+     "r_min_tier": -0.186,
+     "r_max_tier": -0.031,
+     "excluded_reason": "only n available is pooled observations (n=18); not an independent athlete-level n"
+    },
+    {
+     "cohort": "ind_SCOPUS_2-s2.0-105015532135",
+     "record_id": "SCOPUS_2-s2.0-105015532135",
+     "row_id": 567,
+     "construct": "total_distance",
+     "domain": "external_match",
+     "outcome": "jump_height_absolute",
+     "lag_hours": 48.0,
+     "r": -0.182,
+     "n": 7.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.274325906635747,
+     "r_min_tier": -0.317,
+     "r_max_tier": -0.182,
+     "excluded_reason": "only n available is pooled observations (n=7); not an independent athlete-level n"
+    },
+    {
+     "cohort": "ind_SD_196188164",
+     "record_id": "SD_196188164",
+     "row_id": 2230,
+     "construct": "ATL_ACWR",
+     "domain": "internal_load",
+     "outcome": "jump_height_change",
+     "lag_hours": 48.0,
+     "r": -0.534,
+     "n": 75.0,
+     "tier": 4,
+     "dependence": "repeated_observations_pooled",
+     "z_mean_all_rows": -0.7601162637700647,
+     "r_min_tier": -0.766,
+     "r_max_tier": -0.523,
+     "excluded_reason": "only n available is pooled observations (n=75); not an independent athlete-level n"
+    }
+   ],
+   "k_pooled": 8,
+   "pooled": {
+    "k": 8,
+    "tau2": 0.24492689049471295,
+    "mu_z": -0.20205501482941843,
+    "se_hk": 0.19954100285451307,
+    "ci_z": [
+     -0.6738945093663451,
+     0.2697844797075082
+    ],
+    "Q": 41.00541034756756,
+    "I2": 82.92908194146327,
+    "pi_z": [
+     -1.506485989200433,
+     1.102375959541596
+    ],
+    "r": -0.19934947429252942,
+    "ci_r": [
+     -0.58753584949275,
+     0.26342428202897095
+    ],
+    "pi_r": [
+     -0.9063134579538761,
+     0.8013508478188375
+    ]
+   },
+   "loo": [
+    {
+     "left_out": "ind_PMID_23443218",
+     "k": 7,
+     "tau2": 0.2594370666806853,
+     "mu_z": -0.12763529262562523,
+     "se_hk": 0.21572365419839576,
+     "ci_z": [
+      -0.655492058655979,
+      0.4002214734047286
+     ],
+     "Q": 39.55474895999952,
+     "I2": 84.83115135917659,
+     "pi_z": [
+      -1.5509293713445584,
+      1.295658786093308
+     ],
+     "r": -0.12694668713235474,
+     "ci_r": [
+      -0.5753555754378232,
+      0.3801384475423782
+     ],
+     "pi_r": [
+      -0.9139387025855377,
+      0.8606013973598406
+     ]
+    },
+    {
+     "left_out": "ind_PMID_29339989",
+     "k": 7,
+     "tau2": 0.2851778945848873,
+     "mu_z": -0.21215176234733624,
+     "se_hk": 0.22727038432197252,
+     "ci_z": [
+      -0.7682623591590426,
+      0.34395883446437014
+     ],
+     "Q": 40.134609256559216,
+     "I2": 85.05030916921305,
+     "pi_z": [
+      -1.6993215365178687,
+      1.275018011823196
+     ],
+     "r": -0.2090251710610221,
+     "ci_r": [
+      -0.6459179069837465,
+      0.3310070837182636
+     ],
+     "pi_r": [
+      -0.9353242021229821,
+      0.8551518694036337
+     ]
+    },
+    {
+     "left_out": "ind_PMID_33348584",
+     "k": 7,
+     "tau2": 0.3039289075834525,
+     "mu_z": -0.17329394307757745,
+     "se_hk": 0.2322282152992313,
+     "ci_z": [
+      -0.7415359152635119,
+      0.3949480291083571
+     ],
+     "Q": 40.65468667452407,
+     "I2": 85.24155394915428,
+     "pi_z": [
+      -1.712244727313882,
+      1.365656841158727
+     ],
+     "r": -0.17157981276725606,
+     "ci_r": [
+      -0.6300722285495991,
+      0.37561802366137415
+     ],
+     "pi_r": [
+      -0.9369223736356213,
+      0.8776986017453515
+     ]
+    },
+    {
+     "left_out": "ind_PMID_35627606",
+     "k": 7,
+     "tau2": 0.13798290116841383,
+     "mu_z": -0.08319651649143768,
+     "se_hk": 0.18136287673893792,
+     "ci_z": [
+      -0.5269754889416891,
+      0.3605824559588138
+     ],
+     "Q": 16.787026397374923,
+     "I2": 64.25811303341817,
+     "pi_z": [
+      -1.1380165516468619,
+      0.9716235186639866
+     ],
+     "r": -0.08300509378250424,
+     "ci_r": [
+      -0.48306574667575897,
+      0.3457269740321465
+     ],
+     "pi_r": [
+      -0.8137451280934448,
+      0.7494168622939628
+     ]
+    },
+    {
+     "left_out": "ind_PMID_36430106",
+     "k": 7,
+     "tau2": 0.1553997882285253,
+     "mu_z": -0.33132222592935306,
+     "se_hk": 0.17006425695512836,
+     "ci_z": [
+      -0.7474544717290199,
+      0.08481001987031378
+     ],
+     "Q": 29.58887053908327,
+     "I2": 79.72210533661725,
+     "pi_z": [
+      -1.4399005492341754,
+      0.7772560973754692
+     ],
+     "r": -0.31970835491057253,
+     "ci_r": [
+      -0.6336278703620111,
+      0.08460726440476686
+     ],
+     "pi_r": [
+      -0.8936777055504375,
+      0.6511289555837909
+     ]
+    },
+    {
+     "left_out": "ind_PMID_38028786",
+     "k": 7,
+     "tau2": 0.2183629553501992,
+     "mu_z": -0.290364222827896,
+     "se_hk": 0.20753087051616392,
+     "ci_z": [
+      -0.7981739693723295,
+      0.21744552371653758
+     ],
+     "Q": 31.9280645188928,
+     "I2": 81.20775533872522,
+     "pi_z": [
+      -1.5990494774570583,
+      1.0183210318012663
+     ],
+     "r": -0.28247000888173596,
+     "ci_r": [
+      -0.6630146802082122,
+      0.21408199717427273
+     ],
+     "pi_r": [
+      -0.9215253496137554,
+      0.7691817984633799
+     ]
+    },
+    {
+     "left_out": "ind_PMID_41210085",
+     "k": 7,
+     "tau2": 0.3050818939849476,
+     "mu_z": -0.1963315710520096,
+     "se_hk": 0.23323383689657456,
+     "ci_z": [
+      -0.7670342106422507,
+      0.37437106853823154
+     ],
+     "Q": 38.70592391846623,
+     "I2": 84.49849688993612,
+     "pi_z": [
+      -1.7380292792229297,
+      1.3453661371189107
+     ],
+     "r": -0.19384726363677324,
+     "ci_r": [
+      -0.6452015863541936,
+      0.357809110781042
+     ],
+     "pi_r": [
+      -0.9399976643090812,
+      0.8729551132778246
+     ]
+    },
+    {
+     "left_out": "ishida_etsu_wsoc",
+     "k": 7,
+     "tau2": 0.2933839974972585,
+     "mu_z": -0.1917975419250746,
+     "se_hk": 0.22929720142663487,
+     "ci_z": [
+      -0.7528675815302825,
+      0.36927249768013337
+     ],
+     "Q": 40.690977237077234,
+     "I2": 85.2547163833341,
+     "pi_z": [
+      -1.7007165414721332,
+      1.317121457621984
+     ],
+     "r": -0.1894797999656673,
+     "ci_r": [
+      -0.6368565959497565,
+      0.3533552097631579
+     ],
+     "pi_r": [
+      -0.9354985853464165,
+      0.8660662881671863
+     ]
+    }
+   ],
+   "alt_mean_of_rows": {
+    "k": 8,
+    "tau2": 0.15249876949372432,
+    "mu_z": -0.2851451937549589,
+    "se_hk": 0.15971631670994452,
+    "ci_z": [
+     -0.6628142696223676,
+     0.09252388211244977
+    ],
+    "Q": 32.177528101325656,
+    "I2": 78.24568755574604,
+    "pi_z": [
+     -1.3228744091964975,
+     0.7525840216865796
+    ],
+    "r": -0.2776603557018735,
+    "ci_r": [
+     -0.580233249138944,
+     0.09226076097049027
+    ],
+    "pi_r": [
+     -0.8674969745736787,
+     0.6366880136613956
+    ]
+   },
+   "alt_min_pick": {
+    "k": 8,
+    "tau2": 0.052239765647842946,
+    "mu_z": -0.5413423259463938,
+    "se_hk": 0.10532908409017709,
+    "ci_z": [
+     -0.7904060325840823,
+     -0.2922786193087053
+    ],
+    "Q": 15.631809547439186,
+    "I2": 55.21951582920389,
+    "pi_z": [
+     -1.170466950089907,
+     0.08778229819711947
+    ],
+    "r": -0.49400338500558494,
+    "ci_r": [
+     -0.658638990928081,
+     -0.2842307027330736
+    ],
+    "pi_r": [
+     -0.8244218054436835,
+     0.08755751540027891
+    ]
+   },
+   "alt_max_pick": {
+    "k": 8,
+    "tau2": 0.35027857211906643,
+    "mu_z": -0.06485806160123103,
+    "se_hk": 0.2287432284683157,
+    "ci_z": [
+     -0.6057498470250393,
+     0.4760337238225773
+    ],
+    "Q": 55.73884637709885,
+    "I2": 87.441433658957,
+    "pi_z": [
+     -1.6180622318721887,
+     1.4883461086697265
+    ],
+    "r": -0.06476727107927709,
+    "ci_r": [
+     -0.5411283901162992,
+     0.44306153662516756
+    ],
+    "pi_r": [
+     -0.9243426026348921,
+     0.9030199642013526
+    ]
+   }
+  }
+ },
+ "sensitivity_coding_counts": {
+  "S1": {
+   "n_rows": 32,
+   "n_reports": 5,
+   "n_cohorts": 5,
+   "cohorts": [
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ishida_etsu_wsoc__PMID_33555825"
+   ],
+   "gate_met": true
+  },
+  "S1c": {
+   "n_rows": 17,
+   "n_reports": 3,
+   "n_cohorts": 3,
+   "cohorts": [
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ishida_etsu_wsoc__PMID_33555825"
+   ],
+   "gate_met": true
+  },
+  "S2": {
+   "n_rows": 38,
+   "n_reports": 6,
+   "n_cohorts": 6,
+   "cohorts": [
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ind_SD_196188164",
+    "ishida_etsu_wsoc__PMID_33555825"
+   ],
+   "gate_met": true
+  },
+  "S3": {
+   "n_rows": 26,
+   "n_reports": 5,
+   "n_cohorts": 5,
+   "cohorts": [
+    "ind_PMID_33348584",
+    "ind_PMID_36430106",
+    "ind_PMID_38028786",
+    "ind_PMID_41210085",
+    "ishida_etsu_wsoc__PMID_33555825"
+   ],
+   "gate_met": true
+  },
+  "S4": {
+   "n_rows": 57,
+   "n_reports": 8,
+   "n_cohorts": 8,
+   "cohorts": [
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_PMID_36430106",
+    "ind_PMID_38028786",
+    "ind_PMID_41210085",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ishida_etsu_wsoc__PMID_33555825"
+   ],
+   "gate_met": true
+  },
+  "S5": {
+   "n_rows": 68,
+   "n_reports": 11,
+   "n_cohorts": 11,
+   "cohorts": [
+    "ind_PMID_23443218",
+    "ind_PMID_29339989",
+    "ind_PMID_33348584",
+    "ind_PMID_35077336",
+    "ind_PMID_35627606",
+    "ind_PMID_36430106",
+    "ind_PMID_38028786",
+    "ind_PMID_41210085",
+    "ind_SCOPUS_2-s2.0-105015532135",
+    "ind_SD_196188164",
+    "ishida_etsu_wsoc__PMID_33555825"
+   ],
+   "gate_met": true
+  }
+ }
+}

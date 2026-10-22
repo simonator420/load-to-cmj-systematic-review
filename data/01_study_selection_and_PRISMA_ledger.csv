@@ -1,0 +1,11 @@
+stage,count,detail,source,status
+1_records_identified_databases,6064,PubMed 1241; Scopus 1419; Web of Science 1302; Embase 1107; SPORTDiscus 995.,18_search_documentation/*,final
+2_duplicate_records_removed,4185,Corrected reconstruction: 1900 identifier/title-year clusters minus 22 explicitly documented duplicate merges plus 1 split of a false merge = 1879 unique records; 6064-1879=4185.,21_PRISMA_and_screening/03_PRISMA_count_audit.md; 07_dedup_corrections_audit.csv,final_reconstructed
+3_records_screened_title_abstract,1879,Unique records screened after deduplication.,21_PRISMA_and_screening/03_PRISMA_count_audit.md,final_reconstructed
+4_records_excluded_title_abstract,95,Records excluded before report retrieval.,21_PRISMA_and_screening/06_title_abstract_exclusion_reconstruction.csv,final_reconstructed
+5_reports_sought_for_retrieval,1784,1879 screened minus 95 title/abstract exclusions.,21_PRISMA_and_screening/03_PRISMA_count_audit.md,final
+6_reports_not_retrieved,2,PMID_32634848 and PMID_37846482 were unavailable through accessible institutional and open routes by the retrieval cut-off.,21_PRISMA_and_screening/04_reports_not_retrieved.csv,final
+7_reports_assessed_for_eligibility,1782,1784 reports sought minus 2 reports not retrieved.,21_PRISMA_and_screening/08_assessment_stage_decision_master.csv,final
+8_reports_excluded_after_assessment,1403,wrong_exposure 431; wrong_temporality 255; wrong_population 248; wrong_outcome 177; wrong_report_type 120; insufficient_data 97; wrong_design 71; other 2; retracted_source 1; duplicate_or_companion 1.,02b_assessment_stage_decision_master_v14.csv; 02_final_included_excluded_not_retrieved_list.csv,final
+9_reports_included_in_review,379,include_primary 192; include_secondary 39; include_contextual 148.,02_final_included_excluded_not_retrieved_list.csv,final
+10_arithmetic_check,1784=2+1403+379,Reports sought = reports not retrieved + reports excluded after assessment + reports included.,computed_from_stages_5_6_8_9,verified

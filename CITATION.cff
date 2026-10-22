@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release."
+type: dataset
+title: "Training and Match Load and Subsequent Countermovement Jump Performance in Field-Based Invasion Team Sports: Systematic Review Data"
+authors:
+  - family-names: Salaj
+    given-names: Šimon
+    orcid: "https://orcid.org/0009-0007-6825-1286"
+repository-code: "https://github.com/simonator420/load-cmj-systematic-review"
+version: "v1.1.0"
+date-released: "2026-10-22"
+license: CC-BY-4.0
+keywords:
+  - countermovement jump
+  - training load
+  - match load
+  - team sports
+  - systematic review
+  - neuromuscular fatigue
+abstract: "Data and reproducibility package for a systematic review of training and match load and subsequent countermovement jump performance in field-based invasion team sports."

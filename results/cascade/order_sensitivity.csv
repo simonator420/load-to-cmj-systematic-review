@@ -1,0 +1,6 @@
+criterion_code,criterion,removed_in_main_order,min_over_120_orders,max_over_120_orders
+A,Estimand not a usable exposure-response association,1760,739,1760
+B,Outcome not CMJ jump height,201,41,1212
+C,Exposure not a preceding quantified load / timing not eligible,41,29,104
+D,Unit of analysis or dependence not usable,20,15,153
+G,Other source-recorded data-integrity problem,0,0,6

@@ -1,0 +1,18 @@
+{
+  "run_id": "pubmed_final_2026-09-22_broad-v03",
+  "search_type": "final",
+  "database": "MEDLINE/PubMed and PubMed-not-MEDLINE records",
+  "platform": "PubMed via NCBI E-utilities",
+  "query_file": "01_PubMed_final_query.txt",
+  "started_at_utc": "2026-09-22T21:29:09+00:00",
+  "completed_at_utc": "2026-09-22T21:29:51+00:00",
+  "coverage_end_date": "2026-09-22",
+  "result_count_reported": 1241,
+  "records_parsed": 1241,
+  "result_files": [
+    "06_PubMed_results.csv",
+    "07_PubMed_results.xml"
+  ],
+  "original_execution_manifest_sha256": "95ee653c059fa89e5553c17aa1833eeacd4bd664934998346917008b38df78fb",
+  "status_note": "Confirmed as the final PubMed search used for screening and analysis. The original execution metadata remains preserved outside the final package as audit history."
+}

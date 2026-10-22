@@ -1,0 +1,8 @@
+terminal_category,contextual,primary,secondary,All
+T1 contributes >=1 of the retained primary jump-height effects,0,11,1,12
+"T2 has correlation-type jump-height rows, none retained",4,25,4,33
+"T3 jump-height data only as other estimand (contrast/regression), none usable",86,143,0,229
+T4 correlation-type rows for non-jump-height outcomes only,0,0,9,9
+T5 other-estimand data for non-jump-height outcomes only,24,13,25,62
+T6 no effect row (characterised only),34,0,0,34
+All,148,192,39,379

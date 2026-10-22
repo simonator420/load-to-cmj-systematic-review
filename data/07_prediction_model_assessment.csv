@@ -1,0 +1,3 @@
+pmid,final_classification,prediction_model_assessment_applicability,basis,source_location,status
+PMID_34489720,association_not_prediction_model,not_applicable,"The study examined associations between accumulated training load and change in CMJ height and reported no calibration, discrimination, held-out validation or other out-of-sample predictive-performance assessment.",archived full text,resolved
+PMID_36220145,association_not_prediction_model,not_applicable,The study was framed as a dose-response analysis. Leave-one-out cross-validation was used for Bayesian model comparison rather than evaluation of a model intended for prediction in new athletes; calibration and external validation were absent.,archived full text,resolved

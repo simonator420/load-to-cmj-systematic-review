@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+*.pdf
+*.docx
+*.zip
+*.tif
+*.tiff
+*.eps
+*.xlsx
+*.xls

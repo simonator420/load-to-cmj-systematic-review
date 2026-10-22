@@ -1,0 +1,8 @@
+criterion_code,criterion,rows_assessable,rows_failing_regardless_of_order,rows_failing_ONLY_this_criterion,first_failed_in_main_order,note
+A,Estimand not a usable exposure-response association,2093,1760,739,1760,"all 2,093 assessed (estimand string / reason_if_no)"
+B,Outcome not CMJ jump height,2093,1212,41,201,"1,732 non-classified rows use outcome_variable-derived JH flag (validated; see json)"
+C,Exposure not a preceding quantified load / timing not eligible,361,104,29,41,assessable only for the classified correlation-type rows (n=361)
+D,Unit of analysis or dependence not usable,361,153,15,20,as C
+G,Other source-recorded data-integrity problem,361,6,0,0,as C
+E,Not selected by effect-selection hierarchy (within cohort x construct x lag family),71,0,0,0,no row-level removal recorded in data; 71 retained rows retained-but-clustered (see json)
+F,Duplicate / overlapping cohort (linked reports),2093,0,0,0,no row-level removal recorded; linked-report members contribute to the retained set as listed in the json
