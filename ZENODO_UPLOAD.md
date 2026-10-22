@@ -39,7 +39,7 @@ The steps below apply to each release.
 1. Sign in at <https://zenodo.org/> using the GitHub account linked to
    `simonator420`.
 2. Open <https://zenodo.org/account/settings/github/>, click **Sync now**, find
-   `load-cmj-systematic-review`, and make sure it is enabled.
+   `load-to-cmj-systematic-review`, and make sure it is enabled.
 3. In GitHub, create a release from tag `v1.1.0` with title `Version 1.1.0`.
 4. Wait for Zenodo to process and archive the release. Open the resulting DOI
    record and check the title, creators, version, license, description,
