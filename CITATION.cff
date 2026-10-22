@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0007-6825-1286"
 repository-code: "https://github.com/simonator420/load-to-cmj-systematic-review"
 doi: "10.5281/zenodo.23578816"
-version: "v1.1.0"
+version: "v1.0.0"
 date-released: "2026-10-22"
 license: CC-BY-4.0
 keywords:

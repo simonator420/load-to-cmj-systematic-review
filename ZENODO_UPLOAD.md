@@ -4,9 +4,8 @@ This repository is prepared for archiving through the GitHub–Zenodo
 integration.
 
 Version `v1.0.0` is archived at
-<https://doi.org/10.5281/zenodo.23238379>. Version `v1.1.0` replaces the
-derived data with the corrected final dataset and adds the analysis scripts.
-The steps below apply to each release.
+<https://doi.org/10.5281/zenodo.23578816>. The steps below apply to each
+release.
 
 ## Before the GitHub Release
 
@@ -30,7 +29,7 @@ The steps below apply to each release.
 4. Create and push the version tag:
 
    ```bash
-   git tag -a v1.1.0 -m "Version 1.1.0"
+   git tag -a v1.0.0 -m "Version 1.1.0"
    git push origin main --tags
    ```
 
@@ -40,7 +39,7 @@ The steps below apply to each release.
    `simonator420`.
 2. Open <https://zenodo.org/account/settings/github/>, click **Sync now**, find
    `load-to-cmj-systematic-review`, and make sure it is enabled.
-3. In GitHub, create a release from tag `v1.1.0` with title `Version 1.1.0`.
+3. In GitHub, create a release from tag `v1.0.0` with title `Version 1.1.0`.
 4. Wait for Zenodo to process and archive the release. Open the resulting DOI
    record and check the title, creators, version, license, description,
    repository link and file list.
@@ -54,5 +53,5 @@ archive; keep `CITATION.cff` synchronized for GitHub and users.
 ## Manual Upload Alternative
 
 If the GitHub integration is unavailable, download the GitHub release source
-ZIP and upload it as a Zenodo **Dataset** record. Use version `v1.1.0`, license
+ZIP and upload it as a Zenodo **Dataset** record. Use version `v1.0.0`, license
 `CC-BY-4.0`, and the metadata in `.zenodo.json`.

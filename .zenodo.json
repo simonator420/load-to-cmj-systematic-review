@@ -10,7 +10,7 @@
   "description": "Data and reproducibility package for a systematic review of training and match load and subsequent countermovement jump performance in field-based invasion team sports: report-level decisions, effect rows, cohort linkage, QUIPS judgements, synthesis strata and executable database search strategies.",
   "access_right": "open",
   "license": "cc-by-4.0",
-  "version": "v1.1.0",
+  "version": "v1.0.0",
   "keywords": [
     "countermovement jump",
     "training load",
