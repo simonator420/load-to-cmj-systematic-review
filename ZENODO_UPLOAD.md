@@ -29,7 +29,7 @@ release.
 4. Create and push the version tag:
 
    ```bash
-   git tag -a v1.0.0 -m "Version 1.1.0"
+   git tag -a v1.0.0 -m "Version 1.0.0"
    git push origin main --tags
    ```
 
@@ -39,7 +39,7 @@ release.
    `simonator420`.
 2. Open <https://zenodo.org/account/settings/github/>, click **Sync now**, find
    `load-to-cmj-systematic-review`, and make sure it is enabled.
-3. In GitHub, create a release from tag `v1.0.0` with title `Version 1.1.0`.
+3. In GitHub, create a release from tag `v1.0.0` with title `Version 1.0.0`.
 4. Wait for Zenodo to process and archive the release. Open the resulting DOI
    record and check the title, creators, version, license, description,
    repository link and file list.
